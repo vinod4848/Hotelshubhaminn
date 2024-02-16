@@ -1,6 +1,6 @@
 "use client"
 import React, { useContext } from "react";
-import logoBlack from "../../../public/assets/img/logo/logo-black-full.svg";
+import logoBlack from "../../../public/assets/img/logo/Artboard 2@2x.png";
 import Image from "next/image";
 import Link from "next/link";
 import { AppContext } from "@/contextApi/AppProvider";

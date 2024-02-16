@@ -1,6 +1,6 @@
 "use client";
 import React, { useContext } from "react";
-import logo_black from "../../../public/assets/img/logo/logo-black.svg";
+import logo_black from "../../../public/assets/img/logo/Artboard 2@2x.png";
 import Image from "next/image";
 import { AppContext } from "@/contextApi/AppProvider";
 import Link from "next/link";
@@ -22,10 +22,11 @@ const HeaderOne = () => {
             <div className="mega-menu-wrapper p-relative">
               <div className="d-flex align-items-center justify-content-between">
                 <div className="bd-header__bottom-left bd-header-3__bottom-left d-flex align-items-center">
-                  <div className="bd-header__logo">
-                    <Link href="/">
-                      <Image src={logo_black} alt="image not found" />
-                    </Link>
+                  <div className="bd-header__logo"  >
+                  <Link href="/">
+  <Image src={logo_black} alt="image not found" style={{"bottom": "-4px", "height": "40px", "width": "138px", "position": "absolute", "color": "transparent"}} />
+</Link>
+
                   </div>
                   <div
                     onClick={toggleSideMenu}

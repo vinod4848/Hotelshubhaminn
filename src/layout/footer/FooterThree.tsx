@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from "../../../public/assets/img/logo/logo.svg"
+import logo from "../../../public/assets/img/logo/Artboard 2@2x.png"
 import Image from 'next/image';
 import Link from 'next/link';
 const FooterThree = () => {

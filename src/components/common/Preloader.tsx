@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import preloaderImg from "../../../public/assets/img/logo/preloader.png";
+import preloaderImg from "../../../public/assets/img/logo/Artboard 2@2x.png";
 const Preloader = () => {
   return (
     <>

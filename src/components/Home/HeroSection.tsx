@@ -23,14 +23,14 @@ const HeroSection: React.FC = () => {
                   <h3 className="bd-section__title bd-hero__halfim-title mb-30">
                     welcome to the
                     <br />
-                    hotel Hotelshubhaminn palace
+                    hotel Shubham inn 
                   </h3>
                 </div>
                 <p className=" wow fadeInUp" data-wow-delay=".7s">
                   The Gage Hotel offers unforgettable food and drink options.
                   Enjoy dinner at the award-winning
                 </p>
-                <div
+                {/* <div
                   className="bd-booking__form-3 wow fadeInUp"
                   data-wow-delay=".9s"
                 >
@@ -79,7 +79,7 @@ const HeroSection: React.FC = () => {
                       
                     </div>
                   </form>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="col-xl-6">

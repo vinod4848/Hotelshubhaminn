@@ -23,9 +23,6 @@ const WellcomeAreaSec = () => {
               >
                 <div className="bd-welcome__content mb-65 mmb-35">
                   <div className="bd-welcome__subtitle  mb-35">
-                    <p className="hero__text_animation">
-                      <span>5 STAR</span> HOTEL IN DUBAI, UAE
-                    </p>
                   </div>
                   <div className="bd-section__title-wrapper ">
                     <h2 className="bd-section__title mb-30">

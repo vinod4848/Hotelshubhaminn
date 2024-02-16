@@ -1,7 +1,7 @@
 "use client";
 
 import React,{useContext} from "react";
-import logo from "../../../../public/assets/img/logo/logo.svg";
+import logo from "../../../../public/assets/img/logo/Artboard 2@2x.png";
 import Image from "next/image";
 import Link from "next/link";
 import { AppContext } from "@/contextApi/AppProvider";
@@ -16,9 +16,10 @@ const OffCanvasMain = () => {
           <div className="offcanvas__content">
             <div className="offcanvas__top mb-40 d-flex justify-content-between align-items-center">
               <div className="offcanvas__logo logo">
-                <Link href="/">
-                  <Image src={logo} alt="logo" />
-                </Link>
+              <Link href="/">
+  <Image src={logo} alt="logo" style={{ bottom: '-4px', height: '40px', width: '138px', color: 'transparent' }} />
+</Link>
+
               </div>
               <div className="offcanvas__close">
                 <button onClick={toggleSideMenu} className="offcanvas__close-btn">
