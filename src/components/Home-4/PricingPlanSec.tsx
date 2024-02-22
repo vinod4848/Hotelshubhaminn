@@ -50,11 +50,11 @@ const PricingPlanSec = ({classbg,classbgDiv}:classType) => {
                   <div className={classbgDiv}>
                     <div className="bd-price-item__content">
                       <div onClick={()=>handleActive(item)} className="bd-price-item__icon"></div>
-                      <div className="bd-price-item__price">
+                      {/* <div className="bd-price-item__price">
                         <p>
                           ${item.price} <span>/ {item.time}</span>
                         </p>
-                      </div>
+                      </div> */}
                       <h4 className="bd-price-item__title">{item.title}</h4>
                     </div>
                   </div>
