@@ -23,8 +23,8 @@ const PricingPlanSec = ({classbg,classbgDiv}:classType) => {
   }, []);
   interface itemInferFace{
     id: number;
-    price: number;
-    time: string;
+    // price: number;
+    // time: string;
     title: string;
     img: StaticImageData
     itemList: {

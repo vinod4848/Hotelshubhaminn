@@ -3,8 +3,6 @@ import pricingBg from "../../public/assets/img/price/bg-1.jpg";
 const pricingPlan = [
   {
     id: 1,
-    price: "",
-    time: "",
     title: "Above 5 rooms, 5% discount",
     img: pricingBg,
     itemList: [
@@ -44,8 +42,6 @@ const pricingPlan = [
   },
   {
     id: 2,
-    price: "",
-    time: "",
     title: "Above 10 rooms, 10% discount",
     img: pricingBg,
     itemList: [
@@ -85,8 +81,6 @@ const pricingPlan = [
   },
   {
     id: 3,
-    price: "",
-    time: "",
     title: "Above 15 rooms  15% discount, ",
     img: pricingBg,
     itemList: [
@@ -126,8 +120,6 @@ const pricingPlan = [
   },
   {
     id: 4,
-    price: "",
-    time: "",
     title: "Above 20 rooms special discount",
     img: pricingBg,
     itemList: [
