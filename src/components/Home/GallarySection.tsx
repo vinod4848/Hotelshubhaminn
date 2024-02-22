@@ -16,7 +16,7 @@ const GallerySection = () => {
             >
               <div className="col-xl-12 col-lg-12">
                 <div className="bd-section__title-wrapper text-center">
-                  <p className="bd-section__subtitle mb-20">Gallery</p>
+                  <p className="bd-section__subtitle mb-20" style={{ color: '#ee313d ' }}>Gallery</p>
                   <h2 className="bd-section__title mb-55 mmb-30">
                     Our Gallery
                   </h2>

@@ -24,7 +24,7 @@ const BookNowSec = () => {
               <div className="bd-section__title-wrapper text-center">
                 <p className="bd-section__subtitle mb-20">book now</p>
                 <h2 className=" bd-section__title mb-75 mbs-30">
-                  Welcome To Hotelshubhaminn palace Hotel
+                  Welcome To Hotel Shubhaminn 
                   <br /> Book Your Stay Today.
                 </h2>
               </div>

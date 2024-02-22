@@ -5,10 +5,8 @@ import FeatureArea from "./FeatureArea"
 import AboutSection from "./AboutSection";
 import AmenitiesSection from "./AmenitiesSection";
 import RoomSuiteSection from "./RoomSuiteSection";
-import SpeacilaFeaturesSection from "./SpeacilaFeaturesSection";
 import FeedBackSection from "./FeedBackSection";
 import OffersSection from "./OffersSection";
-import LetestNewsSection from "./LetestNewsSection";
 import GallarySection from "./GallarySection";
 const HomeMain = () => {
   return (
@@ -16,13 +14,11 @@ const HomeMain = () => {
       <HeroSection />
       <FeatureArea/>
       <AboutSection/>
-      <AmenitiesSection/>
       <RoomSuiteSection/>
-      <SpeacilaFeaturesSection clssOverflow=" "/>
-      <FeedBackSection/>
       <GallarySection/>
       <OffersSection/>
-      <LetestNewsSection/>
+      <AmenitiesSection/>
+      <FeedBackSection/>
     </>
   );
 };

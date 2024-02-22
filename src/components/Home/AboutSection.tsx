@@ -11,7 +11,7 @@ const AboutSection = () => {
         <div className="container">
           <div
             className="row align-items-center g-4 g-lg-0 mb-5 mb-lg-0 wow fadeInUp"
-            data-wow-delay=".5s"
+            data-wow-delay=".3s"
           >
             <div className="col-lg-6">
               <div className="section-image about-4__img">
@@ -26,7 +26,7 @@ const AboutSection = () => {
             <div className="col-lg-6">
               <div className="section-content p-lg-5">
                 <div className="bd-section__title-wrapper">
-                  <p className="bd-section__subtitle mb-20">About us</p>
+                <p className="bd-section__subtitle mb-20" style={{ color: '#ee313d ' }}>About us</p>
                   <h2 className="bd-section__title bd-facility-title mb-30">
                     We have 13+ years of Experience{" "}
                   </h2>
@@ -52,7 +52,7 @@ const AboutSection = () => {
             className="row align-items-center g-4 g-lg-0 mb-0 mb-lg-0 wow fadeInUp"
             data-wow-delay=".5s"
           >
-            <div className="col-lg-6 order-lg-2">
+            {/* <div className="col-lg-6 order-lg-2">
               <div className="section-image about-4__img">
                 <Image
                   className="img-full"
@@ -61,8 +61,8 @@ const AboutSection = () => {
                   alt="image not found"
                 />
               </div>
-            </div>
-            <div className="col-lg-6 order-lg-1">
+            </div> */}
+            {/* <div className="col-lg-6 order-lg-1">
               <div className="section-content p-lg-5">
                 <div className="bd-section__title-wrapper">
                   <p className="bd-section__subtitle mb-20">Rooms</p>
@@ -85,7 +85,7 @@ const AboutSection = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

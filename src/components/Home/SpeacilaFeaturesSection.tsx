@@ -21,7 +21,7 @@ const SpeacilaFeaturesSection = ({ clssOverflow }: classType) => {
           >
             <div className="col-xl-8 col-lg-8">
               <div className="bd-section__title-wrapper">
-                <p className="bd-section__subtitle mb-20">
+                <p className="bd-section__subtitle mb-20" style={{ color: '#ee313d ' }}>
                   special features & facilities
                 </p>
                 <h2 className="bd-section__title mb-55  mmb-30">

@@ -1,13 +1,12 @@
 const menu_data = [
   {
     id: 1,
-    hasDropdown: true,
-    active: true,
+    hasDropdown: false,
     title: "Home",
-    pluseInco: true,
     link: "/",
-    submenus: [{ title: "Home Style 1", link: "/" }],
+    pluseInco: false,
   },
+
   {
     id: 2,
     hasDropdown: false,
@@ -17,44 +16,39 @@ const menu_data = [
   },
   {
     id: 3,
-    hasDropdown: true,
+    hasDropdown: false,
     title: "rooms & suites",
     link: "/room-one",
-    pluseInco: true,
-    submenus: [{ title: "rooms 1", link: "/room-one" }],
   },
 
   {
     id: 4,
-    title: "Pages",
-    megaMenu: true,
-    link: "",
-    pluseInco: true,
-    pages: true,
-    mega_menus: [
-      {
-        title: "Page Layout 1",
-        link: "",
-        submenus: [
-          { title: "Offer", link: "/offers" },
-          // { title: "Offer Details", link: "/offer-details" },
-          { title: "Gallery", link: "/gallery" },
-        ],
-      },
-    ],
+    hasDropdown: false,
+    title: "Offer ",
+    link: "/offers",
+    pluseInco: false,
+  },
+
+  {
+    id: 5,
+    hasDropdown: false,
+    title: "Gallery ",
+    link: "/gallery",
+    pluseInco: false,
   },
   {
     id: 6,
     hasDropdown: false,
-    title: "contact us ",
-    link: "/contact",
+    title: "near me places  ",
+    link: "/nearmeplaces ",
     pluseInco: false,
   },
+
   {
     id: 7,
     hasDropdown: false,
-    title: "near me places  ",
-    link: "/nearmeplaces ",
+    title: "contact us ",
+    link: "/contact",
     pluseInco: false,
   },
 ];

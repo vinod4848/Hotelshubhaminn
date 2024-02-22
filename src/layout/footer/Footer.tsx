@@ -1,9 +1,9 @@
 import Link from "next/link";
 import React from "react";
-interface classType{
-  customeClass:string;
+interface classType {
+  customeClass: string;
 }
-const Footer = ({customeClass}:classType) => {
+const Footer = ({ customeClass }: classType) => {
   return (
     <>
       <footer className={customeClass}>
@@ -28,7 +28,7 @@ const Footer = ({customeClass}:classType) => {
                       </li>
                       <li>
                         <Link href="/contact">Location</Link>
-                      </li> 
+                      </li>
                       <li>
                         <Link href="/about">Experience</Link>
                       </li>
@@ -42,7 +42,7 @@ const Footer = ({customeClass}:classType) => {
                         <Link href="/contact">Get In Touch</Link>
                       </li>
                       <li>
-                      <Link href="/dining">DINING</Link>
+                        <Link href="/dining">DINING</Link>
                       </li>
                       <li>
                         <Link href="/faq">FAQ</Link>
@@ -59,27 +59,23 @@ const Footer = ({customeClass}:classType) => {
                   <div className="bd-footer-widget-title">
                     <h5>Get in Touch</h5>
                   </div>
-                  <div className="bd-footer-contact">
-                    <ul>
-                      <li>
-                        <i className="fas fa-paper-plane"></i> Reception:
-                        <Link href="tel:99411123456"> + 99 4 11 123 456</Link>
-                      </li>
-                      <li>
-                        <i className="fas fa-phone"></i>Office:{" "}
-                        <Link href="tel:99411123456"> + 99 4 11 123 456</Link>
-                      </li>
-                      <li>
-                        <i className="fas fa-envelope"></i> E-mail:{" "}
-                        <Link href="mailto:info@theHotelshubhaminnpalace.com">
-                          info@theHotelshubhaminnpalace.com
-                        </Link>
-                      </li>
-                      <li>
-                        <i className="fas fa-map-marker-alt"></i> Address:
-                        Passeig de Gracia 21
-                      </li>
-                    </ul>
+                  <div className="bd-footer__widget-content">
+                    <h4 className="bd-footer__widget-title mb-15">
+                      Contact us
+                    </h4>
+                    <p className="mb-30">
+                      1st Floor A-Wing, Above SBI Bhaichand Textile Compound{" "}
+                      <br />
+                      Jainam Compound, LBS Marg Bhandup Mumbai 400078
+                    </p>
+                    <div className="bd-footer__meta mb-25">
+                      <Link href="tel:7710085020">(+91) 77100 58020</Link>
+                    </div>
+                    <div className="bd-footer__meta">
+                      <Link href="mailto:hotelshubhaminn24@gmail.com">
+                        <span>hotelshubhaminn24@gmail.com</span>
+                      </Link>
+                    </div>
                   </div>
                   <div className="bd-footer-btn">
                     <Link href="/room-one" className="bd-btn fill-btn">
@@ -135,14 +131,14 @@ const Footer = ({customeClass}:classType) => {
               <div className="col-md-6">
                 <div className="bd-footer-copyright">
                   <p>
-                    Copyright &amp; Design By{" "}
+                    Copyright &amp; Integrate360{" "}
                     <span>
                       ©{" "}
-                      <Link href="https://themeforest.net/user/bdevs/portfolio">
-                        Bdevs
+                      <Link href="https://www.integrate360.in">
+                        Integrate360
                       </Link>
                     </span>{" "}
-                    - 2023
+                    - 2024
                   </p>
                 </div>
               </div>

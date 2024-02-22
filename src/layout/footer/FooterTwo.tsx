@@ -53,16 +53,16 @@ const FooterTwo = () => {
                   <div className="row">
                      <div className="col-xxl-4 col-xl-3 col-lg-6 col-md-6 col-sm-6">
                         <div className="bd-footer__widget bd-footer__widget-1 mb-50">
-                           <div className="bd-footer__widget-content">
+                        <div className="bd-footer__widget-content">
                               <h4 className="bd-footer__widget-title mb-15">Contact us</h4>
-                              <p className="mb-30">Via Giovanni Augustariccio, 33<br/>
-                                 Amalfi, 84011 SA, Dubai, UAE</p>
+                              <p className="mb-30">1st Floor A-Wing, Above SBI Bhaichand Textile Compound <br/>
+                              Jainam Compound, LBS Marg Bhandup Mumbai 400078</p>
                               <div className="bd-footer__meta mb-25">
-                                 <Link href="tel:9123650003">(+91) 2365
-                                    0003</Link>
+                                 <Link href="tel:7710085020">(+91) 77100
+                                    58020</Link>
                               </div>
                               <div className="bd-footer__meta">
-                                 <Link href="mailto:info@theHotelshubhaminnpalace.com"><span>info@theHotelshubhaminnpalace.com</span></Link>
+                              <Link href="mailto:hotelshubhaminn24@gmail.com"><span>hotelshubhaminn24@gmail.com</span></Link>
                               </div>
                            </div>
                         </div>
@@ -134,7 +134,7 @@ const FooterTwo = () => {
                <div className="bd-footer__copyright pt-15 pb-35">
                   <div className="bd-footer__copyright-wrap d-flex justify-content-center">
                      <div className="bd-footer__copyright-text">
-                        <p>&copy; 2023 <Link href="https://themeforest.net/user/bdevs/portfolio" rel="nofollow">BDevs</Link>
+                        <p>&copy; 2024 <Link href="https://www.integrate360.in" rel="nofollow">Integrate360</Link>
                            All Rights Reserved
                         </p>
                      </div>

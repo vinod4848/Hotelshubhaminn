@@ -11,7 +11,10 @@ const HeaderOne = () => {
   const scrollDirection = useScrollDirection(null);
   return (
     <header>
-      <div className="bd-header transparent-header">
+      <div
+        className="bd-header transparent-header"
+        style={{ backgroundColor: "#606062" }}
+      >
         <div
           id="header-sticky"
           className={`bd-header-3 is-transparent p-relative ${
@@ -22,11 +25,20 @@ const HeaderOne = () => {
             <div className="mega-menu-wrapper p-relative">
               <div className="d-flex align-items-center justify-content-between">
                 <div className="bd-header__bottom-left bd-header-3__bottom-left d-flex align-items-center">
-                  <div className="bd-header__logo"  >
-                  <Link href="/">
-  <Image src={logo_black} alt="image not found" style={{"bottom": "-4px", "height": "40px", "width": "138px", "position": "absolute", "color": "transparent"}} />
-</Link>
-
+                  <div className="bd-header__logo">
+                    <Link href="/">
+                      <Image
+                        src={logo_black}
+                        alt="image not found"
+                        style={{
+                          bottom: "-4px",
+                          height: "40px",
+                          width: "138px",
+                          position: "absolute",
+                          color: "transparent",
+                        }}
+                      />
+                    </Link>
                   </div>
                   <div
                     onClick={toggleSideMenu}
@@ -39,9 +51,7 @@ const HeaderOne = () => {
                 </div>
                 <div className="bd-main-menu d-none d-lg-flex align-items-center is-white">
                   <nav id="mobile-menu-all">
-                    <ul>
-                      
-                    </ul>
+                    <ul></ul>
                   </nav>
                 </div>
                 <div className="bd-header__bottom-right d-none d-md-flex justify-content-end align-items-center">

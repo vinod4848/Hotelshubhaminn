@@ -2,7 +2,6 @@ import React from "react";
 import featuresData from "@/data/featureData";
 
 const FeatureArea = () => {
- 
   return (
     <div className="bd-feature bg-common-black pt-145 p-relative pb-90 mpt-80">
       <div className="container">

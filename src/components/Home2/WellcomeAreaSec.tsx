@@ -26,7 +26,7 @@ const WellcomeAreaSec = () => {
                   </div>
                   <div className="bd-section__title-wrapper ">
                     <h2 className="bd-section__title mb-30">
-                      welcome to the
+                      welcome to 
                       <br />
                        HotelShubham inn palace
                     </h2>

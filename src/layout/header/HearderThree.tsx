@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useContext } from "react";
 import logoBlack from "../../../public/assets/img/logo/Artboard 2@2x.png";
 import Image from "next/image";
@@ -6,17 +6,20 @@ import Link from "next/link";
 import { AppContext } from "@/contextApi/AppProvider";
 import { AppContextType } from "@/interFace/interFace";
 import useScrollDirection from "@/hooks/stacky-header";
-import headerBg from "../../../public/assets/img/bg/hero-bg.jpg"
+import headerBg from "../../../public/assets/img/bg/hero-bg.jpg";
 import Menu from "./Menu";
 
 const HearderThree = () => {
-  const {toggleSideMenu} = useContext(AppContext) as AppContextType;
-  const scrollDirection = useScrollDirection(null)
+  const { toggleSideMenu } = useContext(AppContext) as AppContextType;
+  const scrollDirection = useScrollDirection(null);
   return (
     <>
       <header>
         <div className="bd-header transparent-header">
-        <div className="bd-header__bg" style={{ backgroundImage: `url(${headerBg.src})`}}></div>
+          <div
+            className="bd-header__bg"
+            style={{ backgroundImage: `url(${headerBg.src})` }}
+          ></div>
           <div
             className="bd-header__top d-none d-xl-block"
             id="header-top_sticky"
@@ -26,7 +29,10 @@ const HearderThree = () => {
                 <div className="col-12">
                   <div className="bd-header-top-wrapper d-flex justify-content-between align-items-center">
                     <div className="bd-header-top-left">
-                      <div onClick={toggleSideMenu} className="bd-header-hamburger offcanvas-open-btn">
+                      <div
+                        onClick={toggleSideMenu}
+                        className="bd-header-hamburger offcanvas-open-btn"
+                      >
                         <span></span>
                         <span></span>
                         <span></span>
@@ -38,7 +44,7 @@ const HearderThree = () => {
                       </div>
                       <div className="bd-header__meta-text">
                         <p>
-                          <Link href="tel:2025550100">202-555-0100</Link>
+                          <Link href="tel:02235036349">02235036349</Link>
                         </p>
                       </div>
                     </div>
@@ -63,6 +69,7 @@ const HearderThree = () => {
             className={`bd-header-bottom bd-header-2__main theme-bg ${
               scrollDirection === "down" ? "header-sticky" : " "
             }`}
+            style={{ backgroundColor: "#606062" }}
           >
             <div className="container">
               <div className="mega-menu-wrapper p-relative">
@@ -78,29 +85,20 @@ const HearderThree = () => {
                       </Link>
                     </div>
                   </div>
-                  <div className="bd-main-menu d-none d-lg-flex align-items-center">
+                  <div
+                    className="bd-main-menu d-none d-lg-flex align-items-center"
+                    style={{ marginRight: "102px" }}
+                  >
                     <nav id="mobile-menu">
                       <ul>
-                        <Menu/>
+                        <Menu />
                       </ul>
                     </nav>
                   </div>
-                  <div className="bd-header__bottom-right d-flex justify-content-end align-items-center">
-                    <div className="bd-header-lang d-none d-xl-flex">
-                      <div className="bd-header-lang__item">
-                        <Link className="active" href="#">
-                          en
-                        </Link>
-                      </div>
-                      <div className="bd-header-lang__item">
-                        <Link href="#">fr</Link>
-                      </div>
-                      <div className="bd-header-lang__item">
-                        <Link href="#">de</Link>
-                      </div>
-                    </div>
-                  </div>
-                  <div onClick={toggleSideMenu} className="bd-header-hamburger offcanvas-open-btn d-xl-none is-black">
+                  <div
+                    onClick={toggleSideMenu}
+                    className="bd-header-hamburger offcanvas-open-btn d-xl-none"
+                  >
                     <span></span>
                     <span></span>
                     <span></span>

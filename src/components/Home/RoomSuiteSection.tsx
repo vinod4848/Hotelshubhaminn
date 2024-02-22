@@ -21,7 +21,7 @@ const RoomSuiteSection = () => {
           >
             <div className="col-xl-6 col-lg-6 mb-0">
               <div className="bd-section__title-wrapper is-white">
-                <p className="bd-section__subtitle mb-20">Rooms</p>
+                <p className="bd-section__subtitle mb-20" style={{ color: '#ee313d ' }}>Rooms</p>
                 <h2 className=" bd-section__title mb-50 mmb-30">
                   Our Rooms & Suites
                 </h2>

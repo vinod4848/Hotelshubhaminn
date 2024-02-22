@@ -30,56 +30,6 @@ const HeroSection: React.FC = () => {
                   The Gage Hotel offers unforgettable food and drink options.
                   Enjoy dinner at the award-winning
                 </p>
-                {/* <div
-                  className="bd-booking__form-3 wow fadeInUp"
-                  data-wow-delay=".9s"
-                >
-                  <form action="#">
-                    <div className="bd-booking__input">
-                      <div className="bd-booking__input-date">
-                        <label>Check in</label>
-                        <DatePicker
-                          selected={startDate}
-                          onChange={(startDate) =>
-                            setstartDate(startDate as Date)
-                          }
-                          onCalendarClose={handleCalendarClose}
-                          onCalendarOpen={handleCalendarOpen}
-                          className="bd-date-picker"
-                        />
-                      </div>
-                    </div>
-                    <div className="bd-booking__input">
-                      <div className="bd-booking__input-date">
-                        <label>Check out</label>
-                        <DatePicker
-                          selected={endDate}
-                          onChange={(endDate) => setendDate(endDate as Date)}
-                          onCalendarClose={handleCalendarClose}
-                          onCalendarOpen={handleCalendarOpen}
-                          className="bd-date-picker"
-                        />
-                      </div>
-                    </div>
-                    <div className="bd-booking__input">
-                      <div className="bd-booking__input-person">
-                        <label>Number of person</label>
-                        <input type="text" className="" defaultValue="2" />
-                      </div>
-                    </div>
-                    <div className="bd-booking__submit-3">
-                    <Link href="/booking-form">
-                    <button type="submit" className="bd-btn fill-btn">
-                        Book the room
-                        <span>
-                          <i className="fa-regular fa-arrow-right-long"></i>
-                        </span>
-                      </button>
-                      </Link>
-                      
-                    </div>
-                  </form>
-                </div> */}
               </div>
             </div>
             <div className="col-xl-6">
