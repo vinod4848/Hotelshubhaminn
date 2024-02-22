@@ -40,8 +40,8 @@ const meneTwoData = [
     pluseInco: true,
     submenus: [
       { title: "Offer", link: "/offers" },
-      { title: "Offer Details", link: "/offer-details" },
-      { title: "Bookinig Form", link: "/booking-form" },
+      // { title: "Offer Details", link: "/offer-details" },
+      // { title: "Bookinig Form", link: "/booking-form" },
       { title: "Gallery", link: "/gallery" },
       // { title: "DINING", link: "/dining" },
       // { title: "Event", link: "/event" },

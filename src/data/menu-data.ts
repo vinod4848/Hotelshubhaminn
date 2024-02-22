@@ -37,7 +37,7 @@ const menu_data = [
         link: "",
         submenus: [
           { title: "Offer", link: "/offers" },
-          { title: "Offer Details", link: "/offer-details" },
+          // { title: "Offer Details", link: "/offer-details" },
           { title: "Gallery", link: "/gallery" },
         ],
       },
