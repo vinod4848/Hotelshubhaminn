@@ -6,23 +6,107 @@ const NeaarmeArea = () => {
       <section className="bd-contact-area x-clip pb-90">
         <div className="container">
           <div className="row">
-            <div className="col-xl-6 mb-60">
-              <div className="bd-contact-form">
-                <h3 className="bd-contact-form-title mb-25">
-                  Contact Us Right Here
-                </h3>
-
+            <div className="col-md-3 mb-4">
+              <div className="card">
+                <img
+                  src="https://table.skift.com/wp-content/uploads/2019/01/2_Dominos-Store_Eugene-OR-e1546984571327.jpg"
+                  className="card-img-top"
+                  alt=""
+                />
+                <div className="card-body">
+                  <h5 className="card-title">Dominos 1</h5>
+                </div>
               </div>
             </div>
-            <div className="col-xl-6 mb-60">
-              <div className="bd-contact-map">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14596.899807208923!2d90.3654215!3d23.8461445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1673765392297!5m2!1sen!2sbd"
-                  style={{ border: 0 }}
-                  allowFullScreen={true}
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                ></iframe>
+
+            <div className="col-md-3 mb-4">
+              <div className="card">
+                <img
+                  src="https://table.skift.com/wp-content/uploads/2019/01/2_Dominos-Store_Eugene-OR-e1546984571327.jpg"
+                  className="card-img-top"
+                  alt=""
+                />
+                <div className="card-body">
+                  <h5 className="card-title">Dominos 2</h5>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-md-3 mb-4">
+              <div className="card">
+                <img
+                  src="https://table.skift.com/wp-content/uploads/2019/01/2_Dominos-Store_Eugene-OR-e1546984571327.jpg"
+                  className="card-img-top"
+                  alt=""
+                />
+                <div className="card-body">
+                  <h5 className="card-title">Dominos 3</h5>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-md-3 mb-4">
+              <div className="card">
+                <img
+                  src="https://table.skift.com/wp-content/uploads/2019/01/2_Dominos-Store_Eugene-OR-e1546984571327.jpg"
+                  className="card-img-top"
+                  alt=""
+                />
+                <div className="card-body">
+                  <h5 className="card-title">Dominos 4</h5>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-md-3 mb-4">
+              <div className="card">
+                <img
+                  src="https://table.skift.com/wp-content/uploads/2019/01/2_Dominos-Store_Eugene-OR-e1546984571327.jpg"
+                  className="card-img-top"
+                  alt=""
+                />
+                <div className="card-body">
+                  <h5 className="card-title">Dominos 5</h5>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-md-3 mb-4">
+              <div className="card">
+                <img
+                  src="https://table.skift.com/wp-content/uploads/2019/01/2_Dominos-Store_Eugene-OR-e1546984571327.jpg"
+                  className="card-img-top"
+                  alt=""
+                />
+                <div className="card-body">
+                  <h5 className="card-title">Dominos 6</h5>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-md-3 mb-4">
+              <div className="card">
+                <img
+                  src="https://table.skift.com/wp-content/uploads/2019/01/2_Dominos-Store_Eugene-OR-e1546984571327.jpg"
+                  className="card-img-top"
+                  alt=""
+                />
+                <div className="card-body">
+                  <h5 className="card-title">Dominos 7</h5>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-md-3 mb-4">
+              <div className="card">
+                <img
+                  src="https://table.skift.com/wp-content/uploads/2019/01/2_Dominos-Store_Eugene-OR-e1546984571327.jpg"
+                  className="card-img-top"
+                  alt=""
+                />
+                <div className="card-body">
+                  <h5 className="card-title">Dominos 8</h5>
+                </div>
               </div>
             </div>
           </div>

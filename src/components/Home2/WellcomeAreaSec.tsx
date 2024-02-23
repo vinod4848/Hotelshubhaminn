@@ -22,18 +22,26 @@ const WellcomeAreaSec = () => {
                 data-wow-delay=".5s"
               >
                 <div className="bd-welcome__content mb-65 mmb-35">
-                  <div className="bd-welcome__subtitle  mb-35">
-                  </div>
+                  <div className="bd-welcome__subtitle  mb-35"></div>
                   <div className="bd-section__title-wrapper ">
                     <h2 className="bd-section__title mb-30">
-                      welcome to 
+                      Welcome to
                       <br />
-                       HotelShubham inn palace
+                      Hotel Shubham inn
                     </h2>
                   </div>
                   <p>
-                    The Gage Hotel offers unforgettable food and drink options.
-                    Enjoy dinner at the award-winning
+                    Hotel Shubham Inn in Bhandup, Mumbai, promises an
+                    exceptional experience with its remarkable food and beverage
+                    offerings. Our commitment to providing unforgettable dining
+                    experiences sets us apart, making your stay truly memorable.
+                    Indulge in a culinary journey at our award-winning
+                    restaurant, where each dish is crafted with precision and
+                    passion. Our chefs take pride in using fresh, locally
+                    sourced ingredients to create a menu that caters to diverse
+                    tastes and preferences. From traditional Indian delicacies
+                    to international cuisines, our restaurant at Hotel Shubham
+                    Inn aims to satisfy the discerning palate of every guest
                   </p>
                 </div>
                 <div className="bd-welcome__thumb mmb-80 transform-none">
