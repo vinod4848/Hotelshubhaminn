@@ -5,6 +5,8 @@ type MenuItemWithDropdown = {
   link: string;
   pluseInco: boolean;
   megaMenu?: boolean;
+  pages?: boolean;
+  mega_menus?: MenuItem[];
   submenus?: MenuItem[]; // Add 'submenus' property for items with dropdowns
 };
 
@@ -13,8 +15,10 @@ type MenuItemWithoutDropdown = {
   hasDropdown: boolean;
   title: string;
   link: string;
+  pages?: boolean;
   pluseInco?: boolean; // Optional: Add 'pluseInco' if some items may not have it
   megaMenu?: boolean; 
+  mega_menus?: MenuItem[];
   submenus?: MenuItem[];
 };
 

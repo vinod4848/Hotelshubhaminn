@@ -22,7 +22,8 @@ const Menu = () => {
               ))}
             </ul>
           )}
-          {item.megaMenu === true && (
+
+          {item.megaMenu === true && item.mega_menus && (
             <ul className="mega-menu">
               {item.pages === true &&
                 item.mega_menus.map((i, index) => (
@@ -31,8 +32,8 @@ const Menu = () => {
                       {i.title}
                     </Link>
                     <ul>
-                      {i.submenus.map((submenu, index) => (
-                        <li key={index}>
+                      {i.submenus?.map((submenu, subIndex) => (
+                        <li key={subIndex}>
                           <Link href={submenu.link}> {submenu.title} </Link>
                         </li>
                       ))}
