@@ -16,7 +16,7 @@ const SlideData = [
     sectionsubTitle:
       "The three floors of the hotel contain 227 stylish and luxurious rooms made for an indulgent holiday, including 12 sumptuous suites with a sea view.",
     details:
-      "The Gage Hotel offers unforgettable food and drink options. A memorable stay with delicious breakfast Join us in celebrating the new year with a little special surprise from our end. Enjoy dinner at the award-winning",
+      "Shubham Inn Hotel offers unforgettable food and drink options. A memorable stay with delicious breakfast Join us in celebrating the new year with a little special surprise from our end. Enjoy dinner at the award-winning",
     imgThree: thumb3,
   },
   {
@@ -28,7 +28,7 @@ const SlideData = [
     sectionsubTitle:
       "Spa center inilla duiman at elit finibus viverra nec a lacus themo the drudea seneoice misuscipit non sagie the fermen.",
     details:
-      "The Gage Hotel offers unforgettable food and drink options. A memorable stay with delicious breakfast Join us in celebrating the new year with a little special surprise from our end. Enjoy dinner at the award-winning",
+      "Shubham Inn Hotel offers unforgettable food and drink options. A memorable stay with delicious breakfast Join us in celebrating the new year with a little special surprise from our end. Enjoy dinner at the award-winning",
     imgThree: thumb3,
   },
   {
@@ -40,7 +40,7 @@ const SlideData = [
     sectionsubTitle:
       "Spa center inilla duiman at elit finibus viverra nec a lacus themo the drudea seneoice misuscipit non sagie the fermen.",
     details:
-      "The Gage Hotel offers unforgettable food and drink options. A memorable stay with delicious breakfast Join us in celebrating the new year with a little special surprise from our end. Enjoy dinner at the award-winning",
+      "Shubham Inn Hotel offers unforgettable food and drink options. A memorable stay with delicious breakfast Join us in celebrating the new year with a little special surprise from our end. Enjoy dinner at the award-winning",
     imgThree: thumb3,
   },
 ];

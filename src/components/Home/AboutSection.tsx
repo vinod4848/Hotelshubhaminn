@@ -4,7 +4,6 @@ import wellCome_2 from "../../../public/assets/img/bg/welcome-bg-2.jpg";
 import wellCome_3 from "../../../public/assets/img/bg/welcome-bg-3.jpg";
 import Link from "next/link";
 const AboutSection = () => {
-  
   return (
     <>
       <section className="bd-about__area pt-150 pb-150 bg-theme-2">
@@ -26,15 +25,20 @@ const AboutSection = () => {
             <div className="col-lg-6">
               <div className="section-content p-lg-5">
                 <div className="bd-section__title-wrapper">
-                <p className="bd-section__subtitle mb-20" style={{ color: '#ee313d ' }}>About us</p>
+                  <p
+                    className="bd-section__subtitle mb-20"
+                    style={{ color: "#ee313d " }}
+                  >
+                    About us
+                  </p>
                   <h2 className="bd-section__title bd-facility-title mb-30">
                     We have 13+ years of Experience{" "}
                   </h2>
                   <p className="mb-30">
-                    The Gage Hotel offers unforgettable food and drink options.
-                    A memorable stay with delicious breakfast Join us in
-                    celebrating the new year with a little special surprise from
-                    our end.
+                    Shubham Inn Hotel offers unforgettable food and drink
+                    options. A memorable stay with delicious breakfast Join us
+                    in celebrating the new year with a little special surprise
+                    from our end.
                   </p>
                   <div className="section-btn">
                     <Link href="/about" className="bd-btn theme-btn">
@@ -70,7 +74,7 @@ const AboutSection = () => {
                     Experience Luxury at Our Hotelshubhaminn Hotel{" "}
                   </h2>
                   <p className="mb-30">
-                    The Gage Hotel offers unforgettable food and drink options.
+                    Shubham Inn Hotel offers unforgettable food and drink options.
                     A memorable stay with delicious breakfast Join us in
                     celebrating the new year with a little special surprise from
                     our end.

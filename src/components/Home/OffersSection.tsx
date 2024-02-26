@@ -17,7 +17,12 @@ const OffersSection = () => {
           >
             <div className="col-md-8">
               <div className="bd-section__title-wrapper">
-                <p className="bd-section__subtitle mb-20" style={{ color: '#ee313d ' }}>Offers</p>
+                <p
+                  className="bd-section__subtitle mb-20"
+                  style={{ color: "#ee313d " }}
+                >
+                  Offers
+                </p>
                 <h2 className="bd-section__title mb-55  mmb-30">
                   The Hotelshubhaminn Limited Period Offer
                 </h2>
@@ -101,8 +106,9 @@ const OffersSection = () => {
                                   </Link>
                                 </h4>
                                 <p>
-                                  The Gage Hotel offers unforgettable food and
-                                  drink options. A memorable stay with delicious
+                                  Shubham Inn Hotel offers unforgettable food
+                                  and drink options. A memorable stay with
+                                  delicious
                                 </p>
                                 <div className="bd-offer__btn">
                                   <Link href={`/booking-form/${item.id}`}>

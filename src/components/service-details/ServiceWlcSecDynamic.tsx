@@ -51,8 +51,8 @@ const ServiceWlcSecDynamic = ({ id }: idType) => {
                     </h2>
                   </div>
                   <p>
-                    The Gage Hotel offers unforgettable food and drink options.
-                    Enjoy dinner at the award-winning
+                    Shubham Inn Hotel offers unforgettable food and drink
+                    options. Enjoy dinner at the award-winning
                   </p>
                 </div>
                 <div className="bd-welcome__thumb transform-none">

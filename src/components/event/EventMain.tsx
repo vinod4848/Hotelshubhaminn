@@ -4,7 +4,6 @@ import Breadcrumb from '../common/breadcrumb/Breadcrumb';
 import EventSec from './EventSec';
 import ServicesSlideSce from '../Home-4/ServicesSlideSce';
 import FaqTwo from '../about/FaqTwo';
-import Brands from '../about/Brands';
 const EventMain = () => {
     return (
         <>
@@ -12,7 +11,6 @@ const EventMain = () => {
             <EventSec/>
             <ServicesSlideSce customeClass=""/>
             <FaqTwo/>
-            <Brands bgColor=" " pt="pt-150" pb="pb-150"/>
         </>
     );
 };
