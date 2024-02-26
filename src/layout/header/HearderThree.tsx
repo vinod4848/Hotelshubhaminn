@@ -87,7 +87,7 @@ const HearderThree = () => {
                   </div>
                   <div
                     className="bd-main-menu d-none d-lg-flex align-items-center"
-                    style={{ marginRight: "102px" }}
+                    style={{ marginRight: "102px", color: "yellow" }}
                   >
                     <nav id="mobile-menu">
                       <ul>

@@ -8,7 +8,7 @@ import thumb6 from "../../public/assets/img/room/6.jpg";
 const roomAndSuites: RoomType[] = [
   {
     id: 1,
-    title: "Queen Deluxe room",
+    title: "Deluxe",
     price: 399,
     time: "NIGHT",
     img: thumb1,
@@ -21,7 +21,7 @@ const roomAndSuites: RoomType[] = [
   },
   {
     id: 2,
-    title: "Couple sea view Room",
+    title: "Super Deluxe",
     price: 399,
     time: "NIGHT",
     img: thumb2,
@@ -34,7 +34,7 @@ const roomAndSuites: RoomType[] = [
   },
   {
     id: 3,
-    title: "Junior Suites room",
+    title: "Premium",
     price: 599,
     time: "NIGHT",
     img: thumb3,
@@ -47,7 +47,7 @@ const roomAndSuites: RoomType[] = [
   },
   {
     id: 4,
-    title: "master suite Room",
+    title: "Suite",
     price: 799,
     time: "NIGHT",
     img: thumb4,

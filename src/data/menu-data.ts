@@ -7,7 +7,7 @@ type MenuItemWithDropdown = {
   megaMenu?: boolean;
   pages?: boolean;
   mega_menus?: MenuItem[];
-  submenus?: MenuItem[]; // Add 'submenus' property for items with dropdowns
+  submenus?: MenuItem[]; 
 };
 
 type MenuItemWithoutDropdown = {
@@ -16,7 +16,7 @@ type MenuItemWithoutDropdown = {
   title: string;
   link: string;
   pages?: boolean;
-  pluseInco?: boolean; // Optional: Add 'pluseInco' if some items may not have it
+  pluseInco?: boolean; 
   megaMenu?: boolean; 
   mega_menus?: MenuItem[];
   submenus?: MenuItem[];

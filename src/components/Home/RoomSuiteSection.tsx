@@ -80,7 +80,7 @@ const RoomSuiteSection = () => {
                             </h4>
                             <div className="bd-room__price mb-30">
                               <p>
-                                $ {item.price} <span>/ {item.time} </span>
+                              ₹ {item.price} <span>/ {item.time} </span>
                               </p>
                             </div>
                             <div className="bd-room__thumb-wrap mb-30">
