@@ -1,6 +1,5 @@
 import React from "react";
 import Breadcrumb from "../common/breadcrumb/Breadcrumb";
-import PricingPlanSec from "../Home-4/PricingPlanSec";
 import OfferSec from "./OfferSec";
 
 const OfferMain = () => {
@@ -8,10 +7,6 @@ const OfferMain = () => {
     <>
       <Breadcrumb title="Promotions & Offers" />
       <OfferSec />
-      <PricingPlanSec
-        classbg="pricing-plan-area pricing-spacing theme-bg-2"
-        classbgDiv="bd-price-item white-bg"
-      />
     </>
   );
 };

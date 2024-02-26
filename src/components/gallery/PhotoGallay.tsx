@@ -13,9 +13,7 @@ const PhotoGallery = () => {
       <PhotoProvider>
         <div className="glo-restaurant-gallery pb-150 mpb-50">
           <div className="container">
-            <ResponsiveMasonry
-              columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}
-            >
+            <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}>
               <Masonry gutter="15px">
                 {photoGallaryData.map((item) => (
                   <PhotoView key={item.id} src={item.img.src}>
@@ -23,7 +21,12 @@ const PhotoGallery = () => {
                       <div className="glo-gallery-page-thumb">
                         <div className="img-hover">
                           <div className="glo-restaurant-thumb">
-                            <Image src={item.img} alt="Image not found" />
+                            <Image
+                              src={item.img}
+                              alt="Image not found"
+                              height={250}
+                              width={300}
+                            />
                             <div className="glo-restaurant-content">
                               <Link href="" className="popup-image">
                                 <i className="fal fa-plus"></i>

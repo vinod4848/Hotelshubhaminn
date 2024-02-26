@@ -1,7 +1,6 @@
 import React from "react";
 import HeroSection from "./HeroSection";
 import PricingPlanSec from "../Home-4/PricingPlanSec";
-import FeatureArea from "./FeatureArea";
 import AboutSection from "./AboutSection";
 import RoomSuiteSection from "./RoomSuiteSection";
 import FeedBackSection from "./FeedBackSection";
@@ -10,7 +9,6 @@ const HomeMain = () => {
   return (
     <>
       <HeroSection />
-      <FeatureArea />
       <AboutSection />
       <RoomSuiteSection />
       <GallarySection />

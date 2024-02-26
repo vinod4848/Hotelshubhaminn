@@ -20,35 +20,21 @@ const Footer = ({ customeClass }: classType) => {
                       <li>
                         <Link href="/room-one">Accommodation</Link>
                       </li>
-                      <li>
-                        <Link href="/about">About Hotel</Link>
-                      </li>
+
                       <li>
                         <Link href="/dining">Dining</Link>
                       </li>
-                      <li>
-                        <Link href="/contact">Location</Link>
-                      </li>
+
                       <li>
                         <Link href="/about">Experience</Link>
                       </li>
-                      <li>
-                        <Link href="">Jobs &amp; Career</Link>
-                      </li>
+
                       <li>
                         <Link href="/event">Occasions</Link>
                       </li>
-                      <li>
-                        <Link href="/contact">Get In Touch</Link>
-                      </li>
+
                       <li>
                         <Link href="/dining">DINING</Link>
-                      </li>
-                      <li>
-                        <Link href="/faq">FAQ</Link>
-                      </li>
-                      <li>
-                        <Link href="/event">Events</Link>
                       </li>
                     </ul>
                   </div>
