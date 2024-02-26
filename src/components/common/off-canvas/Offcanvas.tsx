@@ -52,7 +52,7 @@ const OffCanvasMain = () => {
               </div>
             </div>
             <div className="offcanvas__about mt-30 mb-30">
-              <h4>About Hotelshubhaminn Hotel</h4>
+              <h4> Hotel Shubham Inn</h4>
               <p>
                 Experience legendary service in the heart of Hotelshubhaminn.
                 The new generation of luxury. A Haven of Comfort and Elegance in
@@ -80,7 +80,7 @@ const OffCanvasMain = () => {
                   </div>
                   <div className="offcanvas__contact-text">
                     <Link href="mailto:hotelshubhaminn24@gmail.com">
-                    hotelshubhaminn24@gmail.com
+                      hotelshubhaminn24@gmail.com
                     </Link>
                   </div>
                 </li>

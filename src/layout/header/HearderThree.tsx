@@ -50,7 +50,7 @@ const HearderThree = () => {
                     </div>
                     <div className="bd-header-top-right d-none d-sm-block">
                       <div className="bd-header-top-btn">
-                        <Link href="/login" className="bd-btn">
+                        <Link href="/booking-form" className="bd-btn">
                           book now
                           <span>
                             <i className="fa-regular fa-arrow-right-long"></i>

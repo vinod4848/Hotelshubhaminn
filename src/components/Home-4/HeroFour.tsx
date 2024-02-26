@@ -79,7 +79,7 @@ const HeroFour = () => {
                                   data-animation="fadeInUp"
                                   data-delay=".7s"
                                 >
-                                  <Link href={`/login`} className="bd-btn">
+                                  <Link href={`/booking-form`} className="bd-btn">
                                     book now
                                     <span>
                                       <i className="fa-regular fa-arrow-right-long"></i>

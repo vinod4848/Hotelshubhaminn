@@ -21,12 +21,12 @@ const LoginSection = () => {
                                 </div>
                                 <div className="login__form">
                                     <LoginForm />
-                                    <div className="login__register-now">
+                                    {/* <div className="login__register-now">
                                         <p>
                                             {`Don’t`} have an account?
                                             <Link href="/signup"> Register Now</Link>
                                         </p>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>

@@ -41,7 +41,7 @@ const HeaderTwo = () => {
                   </div>
                   <div className="bd-header__bottom-right d-flex justify-content-end align-items-center">
                     <div className="bd-header-top-btn mr-30 d-none d-xl-flex">
-                      <Link href="/login" className="bd-btn fill-btn">
+                      <Link href="/booking-form" className="bd-btn fill-btn">
                         book now
                         <span>
                           <i className="fa-regular fa-arrow-right-long"></i>
