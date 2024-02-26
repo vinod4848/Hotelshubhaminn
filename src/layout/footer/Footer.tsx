@@ -60,20 +60,27 @@ const Footer = ({ customeClass }: classType) => {
                     <h5>Get in Touch</h5>
                   </div>
                   <div className="bd-footer__widget-content">
-                    <h4 className="bd-footer__widget-title mb-15">
+                    <h4
+                      className="bd-footer__widget-title mb-15"
+                      style={{ color: "black" }}
+                    >
                       Contact us
                     </h4>
-                    <p className="mb-30">
+                    <p className="mb-30" style={{ color: "black" }}>
                       1st Floor A-Wing, Above SBI Bhaichand Textile Compound{" "}
                       <br />
                       Jainam Compound, LBS Marg Bhandup Mumbai 400078
                     </p>
                     <div className="bd-footer__meta mb-25">
-                      <Link href="tel:7710085020">(+91) 77100 58020</Link>
+                      <Link href="tel:7710085020" style={{ color: "black" }}>
+                        (+91) 77100 58020
+                      </Link>
                     </div>
                     <div className="bd-footer__meta">
                       <Link href="mailto:hotelshubhaminn24@gmail.com">
-                        <span>hotelshubhaminn24@gmail.com</span>
+                        <span style={{ color: "black" }}>
+                          hotelshubhaminn24@gmail.com
+                        </span>
                       </Link>
                     </div>
                   </div>
@@ -107,16 +114,19 @@ const Footer = ({ customeClass }: classType) => {
                     <strong>We accept</strong>
                     <div className="payment-methods-icons">
                       <span>
-                        <i className="fa-brands fa-cc-paypal"></i>
+                        <i className="fa-brands fa-cc-visa"></i>
                       </span>
                       <span>
                         <i className="fa-brands fa-cc-mastercard"></i>
                       </span>
                       <span>
-                        <i className="fa-brands fa-cc-visa"></i>
+                        <i className="fa-brands fa-cc-amex"></i>
                       </span>
                       <span>
-                        <i className="fa-brands fa-cc-amex"></i>
+                        <i className="custom-upi-icon"></i>
+                      </span>
+                      <span>
+                        <i className="custom-paytm-icon"></i>
                       </span>
                     </div>
                   </div>
