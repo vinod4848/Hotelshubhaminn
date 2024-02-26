@@ -276,7 +276,5 @@ export const roomsFacilitys = [
             },
         ]
     },
-
-    // Non-Refundable 47 - 49
 ]
 
