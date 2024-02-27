@@ -14,7 +14,9 @@ const RoyalLatestNewsTwo = () => {
           <div className="row wow fadeInUp" data-wow-delay=".5s">
             <div className="col-12">
               <div className="bd-section__title-wrapper text-center">
-                <h2 className="bd-section__title mb-55">Hotelshubhaminn latest news</h2>
+                <h2 className="bd-section__title mb-55">
+                  Hotel Shubham Inn latest news
+                </h2>
               </div>
             </div>
           </div>
@@ -48,34 +50,34 @@ const RoyalLatestNewsTwo = () => {
                 >
                   {blogs.slice(4, 9).map((item) => (
                     <SwiperSlide key={item.id}>
-                        <div className="bd-blog p-relative">
-                          <div className="bd-blog__thumb">
-                            <Image src={item.img} alt="blog image" />
-                          </div>
-                          <div className="bd-blog__content-wrap">
-                            <div className="bd-blog__content">
-                              <div className="bd-blog__content-cat-wrap">
-                                <div className="bd-blog__content-cat">
-                                  <Link href="/blog">
-                                    <i className="fa-solid fa-tag"></i>
-                                    {item.tag}
-                                  </Link>
-                                </div>
-                                <div className="bd-blog__meta">
-                                  <Link href="/blog">
-                                    <span>{item.date}</span>
-                                    <span>{item.month}</span>
-                                  </Link>
-                                </div>
-                              </div>
-                              <h4 className="bd-blog__title">
-                                <Link href={`/blog-details/${item.id}`}>
-                                  {item.title}
+                      <div className="bd-blog p-relative">
+                        <div className="bd-blog__thumb">
+                          <Image src={item.img} alt="blog image" />
+                        </div>
+                        <div className="bd-blog__content-wrap">
+                          <div className="bd-blog__content">
+                            <div className="bd-blog__content-cat-wrap">
+                              <div className="bd-blog__content-cat">
+                                <Link href="/blog">
+                                  <i className="fa-solid fa-tag"></i>
+                                  {item.tag}
                                 </Link>
-                              </h4>
+                              </div>
+                              <div className="bd-blog__meta">
+                                <Link href="/blog">
+                                  <span>{item.date}</span>
+                                  <span>{item.month}</span>
+                                </Link>
+                              </div>
                             </div>
+                            <h4 className="bd-blog__title">
+                              <Link href={`/blog-details/${item.id}`}>
+                                {item.title}
+                              </Link>
+                            </h4>
                           </div>
                         </div>
+                      </div>
                     </SwiperSlide>
                   ))}
                 </Swiper>

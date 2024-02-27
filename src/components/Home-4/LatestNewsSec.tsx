@@ -19,7 +19,7 @@ const LatestNewsSec = () => {
               <div className="bd-section__title-wrapper ">
                 <p className="bd-section__subtitle mb-20">News & Blog</p>
                 <h2 className=" bd-section__title mb-55 mmb-10">
-                  Hotelshubhaminn latest news
+                  Hotel Shubham Inn latest news
                 </h2>
               </div>
             </div>

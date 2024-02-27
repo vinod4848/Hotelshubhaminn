@@ -13,14 +13,14 @@ const heroFourSD = [
     id: 2,
     subTitle: "THE NEW GENERATION OF LUXURY",
     title: "Haven of Comfort and",
-    titleBr: "Relax in Hotelshubhaminn",
+    titleBr: "Relax in Hotel Shubham Inn",
     img: thubm2,
   },
   {
     id: 3,
     subTitle: "THE NEW GENERATION OF LUXURY",
     title: "Experience Luxury at Our",
-    titleBr: "Hotelshubhaminn Hotel",
+    titleBr: "Hotel Shubham Inn Hotel",
     img: thubm3,
   },
 ];

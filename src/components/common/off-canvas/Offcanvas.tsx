@@ -54,9 +54,9 @@ const OffCanvasMain = () => {
             <div className="offcanvas__about mt-30 mb-30">
               <h4> Hotel Shubham Inn</h4>
               <p>
-                Experience legendary service in the heart of Hotelshubhaminn.
+                Experience legendary service in the heart of Hotel Shubham Inn.
                 The new generation of luxury. A Haven of Comfort and Elegance in
-                Hotelshubhaminn
+                Hotel Shubham Inn
               </p>
             </div>
             <div className="offcanvas__contact mt-30 mb-30">

@@ -35,9 +35,9 @@ const HeroThree = () => {
                       data-wow-delay=".7s"
                     >
                       <h1 className="bd-hero__title">
-                        Experience Hotelshubhaminn
+                        Experience Hotel Shubham Inn
                         <br />
-                        service in our Hotelshubhaminn hotel
+                        service in our Hotel Shubham Inn hotel
                       </h1>
                       <div className="bd-hero__line d-none d-lg-block">
                         <span className="bd-hero__line-1"></span>

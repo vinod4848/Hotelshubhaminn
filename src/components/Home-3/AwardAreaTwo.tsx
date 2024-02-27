@@ -22,7 +22,7 @@ const AwardAreaTwo = () => {
             <div className="col-md-8">
               <div className="bd-section__title-wrapper is-white">
                 <h2 className="bd-section__title mb-60  mmb-30">
-                  The Hotelshubhaminn palace Recognition
+                  The Hotel Shubham Inn palace Recognition
                 </h2>
               </div>
             </div>

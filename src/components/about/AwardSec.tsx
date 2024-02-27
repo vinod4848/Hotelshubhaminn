@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Image from "next/image";
 import React from "react";
 import "swiper/css/bundle";
@@ -17,10 +17,10 @@ const AwardSec = () => {
             <div className="col-md-8">
               <div className="bd-section__title-wrapper">
                 <p className="bd-section__subtitle mb-20">
-                  the Hotelshubhaminn palace awards
+                  the Hotel Shubham Inn palace awards
                 </p>
                 <h2 className="bd-section__title mb-60  mmb-30">
-                  The Hotelshubhaminn palace Recognition
+                  The Hotel Shubham Inn palace Recognition
                 </h2>
               </div>
             </div>
@@ -31,50 +31,49 @@ const AwardSec = () => {
           <div className="row wow fadeInUp" data-wow-delay=".5s">
             <div className="col-12">
               <div className=" bd-award-active mmt-20">
-                  <Swiper
-                    modules={[Pagination]}
-                    spaceBetween={30}
-                    loop={true}
-                    observeParents= {true}
-                    observer= {true}
-                    breakpoints={{
-                        576: {
-                            slidesPerView: 1
-                        },
-                        768: {
-                            slidesPerView: 2
-                        },
-                        992: {
-                            slidesPerView: 2
-                        },
-                        1200: {
-                            slidesPerView: 3
-                        },
-                     
-                    }}
-                    pagination={{
-                        el: '.bd-award-pagination',
-                        clickable: true
-                    }}>
-                    {awardSliders?.map((item) => (
-                      <SwiperSlide key={item.id}>
-                        <div className="bd-award">
-                          <div className="bd-award__thumb mb-40">
-                            <Image
-                              src={item.img}
-                              alt="image not found"
-                              style={{ width: "auto", height: "auto" }}
-                            />
-                          </div>
-                          <div className="bd-award__content bd-award__content-2">
-                            <p> {item.title} </p>
-                            <span> {item.year} </span>
-                          </div>
+                <Swiper
+                  modules={[Pagination]}
+                  spaceBetween={30}
+                  loop={true}
+                  observeParents={true}
+                  observer={true}
+                  breakpoints={{
+                    576: {
+                      slidesPerView: 1,
+                    },
+                    768: {
+                      slidesPerView: 2,
+                    },
+                    992: {
+                      slidesPerView: 2,
+                    },
+                    1200: {
+                      slidesPerView: 3,
+                    },
+                  }}
+                  pagination={{
+                    el: ".bd-award-pagination",
+                    clickable: true,
+                  }}
+                >
+                  {awardSliders?.map((item) => (
+                    <SwiperSlide key={item.id}>
+                      <div className="bd-award">
+                        <div className="bd-award__thumb mb-40">
+                          <Image
+                            src={item.img}
+                            alt="image not found"
+                            style={{ width: "auto", height: "auto" }}
+                          />
                         </div>
-                      </SwiperSlide>
-                    ))}
-                  </Swiper>
-                
+                        <div className="bd-award__content bd-award__content-2">
+                          <p> {item.title} </p>
+                          <span> {item.year} </span>
+                        </div>
+                      </div>
+                    </SwiperSlide>
+                  ))}
+                </Swiper>
               </div>
             </div>
           </div>

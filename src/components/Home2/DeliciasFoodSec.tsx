@@ -43,7 +43,7 @@ const DeliciasFoodSec = () => {
             <div className="container">
               <div className="row wow fadeInUp" data-wow-delay=".5s">
                 <div className="col-12">
-                  <ul className="nav nav-tabs Hotelshubhaminn-mb-65 mb-65">
+                  <ul className="nav nav-tabs Hotel Shubham Inn-mb-65 mb-65">
                     {tabContent.length &&
                       tabContent.map((item) => (
                         <Tab

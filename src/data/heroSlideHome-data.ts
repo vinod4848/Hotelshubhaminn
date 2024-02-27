@@ -7,7 +7,7 @@ const heroSlideHome2 = [
     id: 1,
     img: thumb1,
     subTitle: "THE NEW GENERATION OF LUXURY",
-    title: "Welcome to Hotelshubhaminn:",
+    title: "Welcome to Hotel Shubham Inn:",
     titleBr: "A Haven of Luxury and Serenity",
   },
   {
@@ -15,14 +15,14 @@ const heroSlideHome2 = [
     img: thumb2,
     subTitle: "THE NEW GENERATION OF LUXURY",
     title: "Luxury Redefined:",
-    titleBr: "Welcome to Hotelshubhaminn",
+    titleBr: "Welcome to Hotel Shubham Inn",
   },
   {
     id: 3,
     img: thumb3,
     subTitle: "THE NEW GENERATION OF LUXURY",
     title: "Experience the Ultimate in",
-    titleBr: "Luxury at Hotelshubhaminn",
+    titleBr: "Luxury at Hotel Shubham Inn",
   },
 ];
 

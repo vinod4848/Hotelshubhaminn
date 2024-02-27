@@ -47,7 +47,7 @@ const ServiceWlcSecDynamic = ({ id }: idType) => {
                     <h2 className="bd-section__title mb-30">
                       Best Hotel service in
                       <br />
-                      Hotelshubhaminn palace
+                      Hotel Shubham Inn palace
                     </h2>
                   </div>
                   <p>

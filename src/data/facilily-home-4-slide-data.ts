@@ -12,7 +12,7 @@ const SlideData = [
     title: "RESTAURANTS",
     imgOne: thumb1,
     imgTwo: thumb2,
-    sectionTitle: "Hotelshubhaminn-Made Awesome food for Every Single Guest",
+    sectionTitle: "Hotel Shubham Inn-Made Awesome food for Every Single Guest",
     sectionsubTitle:
       "The three floors of the hotel contain 227 stylish and luxurious rooms made for an indulgent holiday, including 12 sumptuous suites with a sea view.",
     details:
@@ -24,7 +24,7 @@ const SlideData = [
     title: "modern fitness center",
     imgOne: thumb4,
     imgTwo: thumb5,
-    sectionTitle: "Hotelshubhaminn-fitness club for health freak guest",
+    sectionTitle: "Hotel Shubham Inn-fitness club for health freak guest",
     sectionsubTitle:
       "Spa center inilla duiman at elit finibus viverra nec a lacus themo the drudea seneoice misuscipit non sagie the fermen.",
     details:
@@ -36,7 +36,7 @@ const SlideData = [
     title: "club & pool",
     imgOne: thumb6,
     imgTwo: thumb7,
-    sectionTitle: "Hotelshubhaminn-The Health Club & Pool for smart guest",
+    sectionTitle: "Hotel Shubham Inn-The Health Club & Pool for smart guest",
     sectionsubTitle:
       "Spa center inilla duiman at elit finibus viverra nec a lacus themo the drudea seneoice misuscipit non sagie the fermen.",
     details:

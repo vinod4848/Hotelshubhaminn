@@ -71,7 +71,7 @@ const AboutSection = () => {
                 <div className="bd-section__title-wrapper">
                   <p className="bd-section__subtitle mb-20">Rooms</p>
                   <h2 className="bd-section__title bd-facility-title mb-30">
-                    Experience Luxury at Our Hotelshubhaminn Hotel{" "}
+                    Experience Luxury at Our Hotel Shubham Inn Hotel{" "}
                   </h2>
                   <p className="mb-30">
                     Shubham Inn Hotel offers unforgettable food and drink options.

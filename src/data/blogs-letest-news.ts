@@ -96,7 +96,8 @@ const blogs: BlogsType[] = [
     tag: "Dining",
     date: "01",
     month: "May",
-    title: " Details Of My Stay At Hotelshubhaminn Hotel & Resort, switzerland",
+    title:
+      " Details Of My Stay At Hotel Shubham Inn Hotel & Resort, switzerland",
   },
 ];
 

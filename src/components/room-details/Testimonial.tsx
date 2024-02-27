@@ -18,7 +18,7 @@ const Testimonial = () => {
                   awesome review from guests
                 </p>
                 <h2 className="bd-section__title mb-55 ">
-                  Hotelshubhaminn guest feedback
+                  Hotel Shubham Inn guest feedback
                 </h2>
               </div>
             </div>

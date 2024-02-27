@@ -33,7 +33,7 @@ export const faqData: faqInterFace[] = [
   },
   {
     id: 6,
-    title: "Is there any kids zone in Hotelshubhaminn hotel?",
+    title: "Is there any kids zone in Hotel Shubham Inn hotel?",
     details:
       "yes, we have a very great condition kids zone in out hotel with 24 hours monitoring service",
   },

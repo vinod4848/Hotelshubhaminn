@@ -24,7 +24,7 @@ const OffersSection = () => {
                   Offers
                 </p>
                 <h2 className="bd-section__title mb-55  mmb-30">
-                  The Hotelshubhaminn Limited Period Offer
+                  The Hotel Shubham Inn Limited Period Offer
                 </h2>
               </div>
             </div>

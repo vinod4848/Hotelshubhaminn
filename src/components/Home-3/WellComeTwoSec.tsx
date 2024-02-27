@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import featuresData from "@/data/featureData";
 import React, { useState } from "react";
 import featuTwo from "../../../public/assets/img/features/2.jpg";
@@ -45,7 +45,7 @@ const WellComeTwoSec = () => {
                   </div>
                   <div className="bd-section__title-wrapper">
                     <h2 className="bd-section__title mb-65">
-                      welcome to  the Hotelshubhaminn palace
+                      welcome to the Hotel Shubham Inn palace
                     </h2>
                   </div>
                   <div className="bd-welcome__list">
