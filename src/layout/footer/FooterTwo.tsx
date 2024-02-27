@@ -11,43 +11,19 @@ const FooterTwo = () => {
             <div className="container">
               <div className="bd-footer-top">
                 <div className="row align-items-center">
-                  <div className="col-xl-4 col-lg-5">
+                  <div className="col-12 text-center">
                     <div className="bd-footer-top__widget-1 mb-40">
-                      <div className="bd-footer__logo mb-15">
-                        <Link href="/">
-                          {" "}
-                          <Image
-                            src={logo}
-                            style={{ width: "100%", height: "auto" }}
-                            alt="img not found!"
-                          />
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-xl-4 col-lg-7">
-                    <div className="bd-footer-top__widget-2 mb-40">
-                      <div className="bd-footer__widget-content is-white mb-40">
-                        <p>
-                          Whether you are at home or away, world-class Four
-                          Seasons property management protects, secures and
-                          maintains your residence for you.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-xl-4 col-lg-8">
-                    <div className="bd-footer-newsletter p-relative z-index-1 mb-40">
-                      <div className="bd-footer-newsletter__form">
-                        <form action="#">
-                          <div className="bd-footer-newsletter__input">
-                            <input type="text" placeholder="Your Email" />
-                            <button type="submit">
-                              subscribe now{" "}
-                              <i className="fa-regular fa-arrow-right-long"></i>
-                            </button>
-                          </div>
-                        </form>
+                      <div className="bd-footer__logo-wrap">
+                        <div className="bd-footer__logo mx-auto text-center">
+                          <Link href="/">
+                            {" "}
+                            <Image
+                              style={{ width: "100%", height: "auto" }}
+                              src={logo}
+                              alt="img not found!"
+                            />
+                          </Link>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -107,16 +83,16 @@ const FooterTwo = () => {
                         <div className="bd-footer__list">
                           <ul>
                             <li>
-                              <Link href="/">Overview</Link>
+                              <Link href="#">Overview</Link>
                             </li>
                             <li>
-                              <Link href="/blog">Junior Corner</Link>
+                              <Link href="#">Junior Corner</Link>
                             </li>
                             <li>
-                              <Link href="/blog-classic">Executive</Link>
+                              <Link href="#">Executive</Link>
                             </li>
                             <li>
-                              <Link href="/service">Premium Pool</Link>
+                              <Link href="#">Premium Pool</Link>
                             </li>
                           </ul>
                         </div>
@@ -126,22 +102,6 @@ const FooterTwo = () => {
                   <div className="col-xxl-3 col-xl-4 col-lg-6 col-md-6 col-sm-6">
                     <div className="bd-footer__widget bd-footer__widget-3 mb-50">
                       <div className="bd-footer-widget__content">
-                        <h4 className="bd-footer__widget-title mb-15">
-                          Useful Link
-                        </h4>
-                        <div className="bd-footer__list mb-35">
-                          <ul>
-                            <li>
-                              <Link href="/">Overview</Link>
-                            </li>
-                            <li>
-                              <Link href="/room-one">Deluxe Sea View</Link>
-                            </li>
-                            <li>
-                              <Link href="/room-two">Superior</Link>
-                            </li>
-                          </ul>
-                        </div>
                         <h4 className="bd-footer__widget-title mb-15">
                           Follow us
                         </h4>

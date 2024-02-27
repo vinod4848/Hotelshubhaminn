@@ -1,6 +1,4 @@
 import React from "react";
-import thumb2 from "../../../public/assets/img/room/details-2.jpg";
-import thumb3 from "../../../public/assets/img/room/details-3.jpg";
 import Image from "next/image";
 import { fadeUpTitle } from "@/data/room-details-static-data";
 import RoomFacilities from "./RoomFacilities";
@@ -31,14 +29,14 @@ const DynamicDetails = ({ id }: idType) => {
                     <div className="col-md-4">
                       <div className="bd-room-details__thumb mb-30">
                         <Image
-                          src={thumb2}
+                          src={room?.img1}
                           style={{ width: "100%", height: "100%" }}
                           alt="image not found"
                         />
                       </div>
                       <div className="bd-room-details__thumb mb-30">
                         <Image
-                          src={thumb3}
+                          src={room?.img2}
                           style={{ width: "100%", height: "100%" }}
                           alt="image not found"
                         />
@@ -48,12 +46,10 @@ const DynamicDetails = ({ id }: idType) => {
                 </div>
                 <div className="bd-room-details__content mb-75">
                   <h3 className="bd-room-details__title  mb-30">
-                    
                     {room?.title}
                   </h3>
                   {fadeUpTitle?.map((item) => (
                     <p key={item.id} className="bdFadeUp">
-                      
                       {item.title}
                     </p>
                   ))}
@@ -67,16 +63,20 @@ const DynamicDetails = ({ id }: idType) => {
               <div className="bd-sidebar__wrap mb-60">
                 <div className="bd-booking-3 mb-40 ">
                   <div className="bd-booking-3__content">
-                    <h3 className="bd-booking-3__title mb-15">
-                      Queen Deluxe...
+                    <h3>
+                      <span>{room?.title} </span>
                     </h3>
-                    <div className="bd-booking-3__price">
+                    <div>
                       <p>
-                        <i className="flaticon-group"></i>
-                        <span>For 2 Adults</span>
+                        <span>₹{room?.singleOccupancy} Single Occupancy</span>/
+                        {room?.time}
                       </p>
                       <p>
-                        <span>${room?.price}</span>/{room?.time}
+                        <span>₹{room?.doubleOccupancy} Double Occupancy</span>/
+                        {room?.time}
+                      </p>
+                      <p>
+                        <span>₹{room?.extrabad} Extra bad</span>/{room?.time}
                       </p>
                     </div>
                     <div className="bd-booking-3__tax">
@@ -84,26 +84,17 @@ const DynamicDetails = ({ id }: idType) => {
                         <span>
                           <i className="fa-light fa-times"></i> Non-Refundable
                         </span>
-                        +$49 taxes & fees
+                        GST Applicable :12%
                       </p>
                     </div>
                   </div>
-                  <div className="bd-booking-3__list">
-                    <ul>
-                      <li>
-                        <i className="flaticon-check-circle"></i>1 King bed or 2
-                        Twin Bed(s)
-                      </li>
-                      <li>
-                        <i className="flaticon-check-circle"></i>538 sq.ft
-                      </li>
-                      <li>
-                        <i className="flaticon-check-circle"></i>Garden View
-                      </li>
-                    </ul>
-                  </div>
                   <div className="bd-booking-3__submit mt-15">
-                  <button type='button'><Link href={`/booking-form/${room?.id}`}>BOOK NOW <i className="fa-regular fa-arrow-right-long"></i></Link></button>
+                    <button type="button">
+                      <Link href={`/booking-form/${room?.id}`}>
+                        BOOK NOW{" "}
+                        <i className="fa-regular fa-arrow-right-long"></i>
+                      </Link>
+                    </button>
                   </div>
                 </div>
                 <div className="bd-booking-3-info ">

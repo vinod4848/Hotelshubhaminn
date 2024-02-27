@@ -1,161 +1,156 @@
-import Link from "next/link";
 import React from "react";
-interface classType {
-  customeClass: string;
-}
-const Footer = ({ customeClass }: classType) => {
+import logo from "../../../public/assets/img/logo/Artboard 2@2x.png";
+import Image from "next/image";
+import Link from "next/link";
+const Footer = () => {
   return (
     <>
-      <footer className={customeClass}>
-        <div className="bd-footer-top pt-100 pb-30">
-          <div className="container">
-            <div className="row justify-content-between">
-              <div className="col-xl-4 col-lg-4 col-md-6">
-                <div className="bd-footer-widget-wrapper mb-60">
-                  <div className="bd-footer-widget-title">
-                    <h5>Useful Links</h5>
-                  </div>
-                  <div className="bd-footer-link">
-                    <ul>
-                      <li>
-                        <Link href="/room-one">Accommodation</Link>
-                      </li>
-
-                      <li>
-                        <Link href="/dining">Dining</Link>
-                      </li>
-
-                      <li>
-                        <Link href="/about">Experience</Link>
-                      </li>
-
-                      <li>
-                        <Link href="/event">Occasions</Link>
-                      </li>
-
-                      <li>
-                        <Link href="/dining">DINING</Link>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xl-3 col-lg-4 col-md-6">
-                <div className="bd-footer-widget-wrapper bd-footer-contact-wrapper mb-60">
-                  <div className="bd-footer-widget-title">
-                    <h5>Get in Touch</h5>
-                  </div>
-                  <div className="bd-footer__widget-content">
-                    <h4
-                      className="bd-footer__widget-title mb-15"
-                      style={{ color: "black" }}
-                    >
-                      Contact us
-                    </h4>
-                    <p className="mb-30" style={{ color: "black" }}>
-                      1st Floor A-Wing, Above SBI Bhaichand Textile Compound{" "}
-                      <br />
-                      Jainam Compound, LBS Marg Bhandup Mumbai 400078
-                    </p>
-                    <div className="bd-footer__meta mb-25">
-                      <Link href="tel:7710085020" style={{ color: "black" }}>
-                        (+91) 77100 58020
-                      </Link>
-                    </div>
-                    <div className="bd-footer__meta">
-                      <Link href="mailto:hotelshubhaminn24@gmail.com">
-                        <span style={{ color: "black" }}>
-                          hotelshubhaminn24@gmail.com
-                        </span>
-                      </Link>
-                    </div>
-                  </div>
-                  <div className="bd-footer-btn">
-                    <Link href="/room-one" className="bd-btn fill-btn">
-                      Reserve Now{" "}
-                      <span>
-                        <i className="fa-regular fa-arrow-right-long"></i>
-                      </span>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xl-4 col-lg-4 col-md-12">
-                <div className="bd-footer-widget-wrapper mb-60">
-                  <div className="bd-footer-widget-title">
-                    <h5>Subscribe Newsletter</h5>
-                  </div>
-                  <div className="bd-footer-newsletter__form">
-                    <form action="#">
-                      <div className="bd-footer-newsletter__input is-black">
-                        <input type="text" placeholder="Your Email" />
-                        <button type="submit">
-                          subscribe now{" "}
-                          <i className="fa-regular fa-arrow-right-long"></i>
-                        </button>
+      <footer>
+        <div className="bd-footer-area">
+          <div className="bd-footer-wrapper p-relative pt-140">
+            <div className="container">
+              <div className="bd-footer-top">
+                <div className="row align-items-center">
+                  <div className="col-12 text-center">
+                    <div className="bd-footer-top__widget-1 mb-40">
+                      <div className="bd-footer__logo-wrap">
+                        <div className="bd-footer__logo mx-auto text-center">
+                          <Link href="/">
+                            {" "}
+                            <Image
+                              style={{ width: "100%", height: "auto" }}
+                              src={logo}
+                              alt="img not found!"
+                            />
+                          </Link>
+                        </div>
                       </div>
-                    </form>
-                  </div>
-                  <div className="payment-methods mt-30">
-                    <strong>We accept</strong>
-                    <div className="payment-methods-icons">
-                      <span>
-                        <i className="fa-brands fa-cc-visa"></i>
-                      </span>
-                      <span>
-                        <i className="fa-brands fa-cc-mastercard"></i>
-                      </span>
-                      <span>
-                        <i className="fa-brands fa-cc-amex"></i>
-                      </span>
-                      <span>
-                        <i className="custom-upi-icon"></i>
-                      </span>
-                      <span>
-                        <i className="custom-paytm-icon"></i>
-                      </span>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-        <div className="bd-footer-bottom d-flex align-items-center">
-          <div className="container">
-            <div className="row align-items-center">
-              <div className="col-md-6">
-                <div className="bd-footer-copyright">
-                  <p>
-                    Copyright &amp; Integrate360{" "}
-                    <span>
-                      ©{" "}
-                      <Link href="https://www.integrate360.in">
-                        Integrate360
-                      </Link>
-                    </span>{" "}
-                    - 2024
-                  </p>
+              <div className="row">
+                <div className="col-12">
+                  <div className="bd-footer-line">
+                    <hr />
+                  </div>
                 </div>
               </div>
-              <div className="col-md-6 text-md-end">
-                <div className="bd-footer__list">
-                  <div className="bd-footer__social-wrapper justify-content-center justify-content-md-end">
-                    <div className="bd-footer__social is-black">
-                      <Link href="https://www.facebook.com/" target="_blank">
-                        <i className="fa-brands fa-facebook-f"></i>
-                      </Link>
+              <div className="bd-footer pt-45 p-relative">
+                <div className="row">
+                  <div className="col-xxl-4 col-xl-3 col-lg-6 col-md-6 col-sm-6">
+                    <div className="bd-footer__widget bd-footer__widget-1 mb-50">
+                      <div className="bd-footer__widget-content">
+                        <h4 className="bd-footer__widget-title mb-15">
+                          Contact us
+                        </h4>
+                        <p className="mb-30">
+                          1st Floor A-Wing, Above SBI Bhaichand Textile Compound{" "}
+                          <br />
+                          Jainam Compound, LBS Marg Bhandup Mumbai 400078
+                        </p>
+                        <div className="bd-footer__meta mb-25">
+                          <Link href="tel:7710085020">(+91) 77100 58020</Link>
+                        </div>
+                        <div className="bd-footer__meta">
+                          <Link href="mailto:hotelshubhaminn24@gmail.com">
+                            <span>hotelshubhaminn24@gmail.com</span>
+                          </Link>
+                        </div>
+                      </div>
                     </div>
-                    <div className="bd-footer__social is-black">
-                      <Link href="https://twitter.com/" target="_blank">
-                        <i className="fa-brands fa-twitter"></i>
-                      </Link>
+                  </div>
+                  <div className="col-xl-5 col-lg-6 col-md-6 col-sm-6">
+                    <div className="bd-footer__widget bd-footer__widget-2 mb-50">
+                      <div className="bd-footer__widget-content">
+                        <h4 className="bd-footer__widget-title mb-15">Rooms</h4>
+                        <div className="bd-footer__list mb-35">
+                          <ul>
+                            <li>
+                              <Link href="/">Overview</Link>
+                            </li>
+                            <li>
+                              <Link href="/room-one">Deluxe Sea View</Link>
+                            </li>
+                            <li>
+                              <Link href="/room-two">Superior</Link>
+                            </li>
+                          </ul>
+                        </div>
+                        <h4 className="bd-footer__widget-title mb-15">
+                          Suites
+                        </h4>
+                        <div className="bd-footer__list">
+                          <ul>
+                            <li>
+                              <Link href="#">Overview</Link>
+                            </li>
+                            <li>
+                              <Link href="#">Junior Corner</Link>
+                            </li>
+                            <li>
+                              <Link href="#">Executive</Link>
+                            </li>
+                            <li>
+                              <Link href="#">Premium Pool</Link>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
                     </div>
-                    <div className="bd-footer__social is-black">
-                      <Link href="https://youtube.com/" target="_blank">
-                        <i className="fa-brands fa-youtube"></i>
-                      </Link>
+                  </div>
+                  <div className="col-xxl-3 col-xl-4 col-lg-6 col-md-6 col-sm-6">
+                    <div className="bd-footer__widget bd-footer__widget-3 mb-50">
+                      <div className="bd-footer-widget__content">
+                        <h4 className="bd-footer__widget-title mb-15">
+                          Follow us
+                        </h4>
+                        <div className="bd-footer__list">
+                          <div className="bd-footer__social-wrapper">
+                            <div className="bd-footer__social">
+                              <Link
+                                href="https://www.facebook.com/"
+                                target="_blank"
+                              >
+                                <i className="fa-brands fa-facebook-f"></i>
+                              </Link>
+                            </div>
+                            <div className="bd-footer__social">
+                              <Link href="https://twitter.com/" target="_blank">
+                                <i className="fa-brands fa-twitter"></i>
+                              </Link>
+                            </div>
+                            <div className="bd-footer__social">
+                              <Link href="https://youtube.com/" target="_blank">
+                                <i className="fa-brands fa-youtube"></i>
+                              </Link>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
+                  </div>
+                </div>
+              </div>
+              <div className="row">
+                <div className="col-12">
+                  <div className="bd-footer-line">
+                    <hr />
+                  </div>
+                </div>
+              </div>
+              <div className="bd-footer__copyright pt-15 pb-35">
+                <div className="bd-footer__copyright-wrap d-flex justify-content-center">
+                  <div className="bd-footer__copyright-text">
+                    <p>
+                      &copy;{" "}
+                      <Link
+                        href="https://www.integrate360.in"
+                        rel="nofollow"
+                      ></Link>
+                      2024 Hotel Shubham Inn. All Rights Reserved. Designed &
+                      Developed by Integrate 360
+                    </p>
                   </div>
                 </div>
               </div>

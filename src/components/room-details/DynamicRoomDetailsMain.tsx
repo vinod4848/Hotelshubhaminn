@@ -8,7 +8,7 @@ import DynamicDetails from "./DynamicDetails";
 const DynamicRoomDetailsMain = ({ id }: idType) => {
   return (
     <>
-      <Breadcrumb title="Queen Deluxe Room" />
+      <Breadcrumb title="Deluxe Room" />
       <DynamicDetails id={id} />
       <Rooms />
     </>

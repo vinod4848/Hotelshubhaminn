@@ -24,7 +24,6 @@ const FooterThree = () => {
                             />
                           </Link>
                         </div>
-                        <span>LUXURIOUS HOTEL IN DUBAI</span>
                       </div>
                     </div>
                   </div>
@@ -103,22 +102,6 @@ const FooterThree = () => {
                   <div className="col-xxl-3 col-xl-4 col-lg-6 col-md-6 col-sm-6">
                     <div className="bd-footer__widget bd-footer__widget-3 mb-50">
                       <div className="bd-footer-widget__content">
-                        <h4 className="bd-footer__widget-title mb-15">
-                          Useful Link
-                        </h4>
-                        <div className="bd-footer__list mb-35">
-                          <ul>
-                            <li>
-                              <Link href="/">Overview</Link>
-                            </li>
-                            <li>
-                              <Link href="/room-one">Deluxe Sea View</Link>
-                            </li>
-                            <li>
-                              <Link href="/room-two">Superior</Link>
-                            </li>
-                          </ul>
-                        </div>
                         <h4 className="bd-footer__widget-title mb-15">
                           Follow us
                         </h4>

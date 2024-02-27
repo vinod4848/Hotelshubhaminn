@@ -95,20 +95,8 @@ const RoomSuiteSection = () => {
                                 <p>{item.details}</p>
                                 <div className="bd-room__list">
                                   <div className="bd-room__list-item">
-                                    <i className="flaticon-taxi"></i>
-                                    <p> {item.list1} </p>
-                                  </div>
-                                  <div className="bd-room__list-item">
-                                    <i className="flaticon-garage"></i>
-                                    <p> {item.list2} </p>
-                                  </div>
-                                  <div className="bd-room__list-item">
                                     <i className="flaticon-breakfast"></i>
                                     <p> {item.list3} </p>
-                                  </div>
-                                  <div className="bd-room__list-item">
-                                    <i className="flaticon-swimming-pool"></i>
-                                    <p> {item.list4} </p>
                                   </div>
                                 </div>
                               </div>
