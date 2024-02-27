@@ -29,7 +29,7 @@
             & a {
                 display: inline-block;
                 font-size: 18px;
-                color: var(--bd-common-black);
+                 color:#ffcc29;
                 padding: 26px 0;
                 line-height: 36px;
                 text-transform: uppercase;
@@ -72,7 +72,7 @@
                         .mega-menu-title {
                             font-weight: 500;
                             font-size: 18px;
-                            color: var(--bd-common-black);
+                             color:#ffcc29;
                             cursor: text;
                             padding: 0;
                             display: inline-block;
@@ -138,7 +138,7 @@
                         content: '\f107';
                         @include transform(translateY(1px));
                         font-size: 14px;
-                        color: var(--bd-common-black);
+                         color:#ffcc29;
                         font-family: var(--bd-ff-fontawesome);
                         font-weight: 400;
                         margin-inline-start: 5px;
@@ -287,7 +287,7 @@
                 .submenu {
                     li {
                         a {
-                            color: var(--bd-common-black);
+                             color:#ffcc29;
                         }
                     }
                 }
@@ -298,7 +298,7 @@
                             ul {
                                 li {
                                     a {
-                                        color: var(--bd-common-black);
+                                         color:#ffcc29;
                                     }
                                 }
                             }
