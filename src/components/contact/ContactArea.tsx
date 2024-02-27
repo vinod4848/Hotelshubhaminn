@@ -92,6 +92,7 @@ const ContactArea = () => {
                 </form>
               </div>
             </div>
+
             <div className="col-xl-6 mb-60">
               <div className="bd-contact-map">
                 <iframe
