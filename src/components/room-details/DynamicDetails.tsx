@@ -105,14 +105,7 @@ const DynamicDetails = ({ id }: idType) => {
                         <i className="flaticon-check-circle"></i>Room Cleaning
                       </li>
                       <li>
-                        <i className="flaticon-check-circle"></i>Evening Party
-                        Manage
-                      </li>
-                      <li>
                         <i className="flaticon-check-circle"></i>Iron & loundry
-                      </li>
-                      <li>
-                        <i className="flaticon-check-circle"></i>Spa & Message
                       </li>
                     </ul>
                   </div>

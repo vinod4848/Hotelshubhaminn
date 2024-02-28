@@ -45,7 +45,7 @@ const WellComeTwoSec = () => {
                   </div>
                   <div className="bd-section__title-wrapper">
                     <h2 className="bd-section__title mb-65">
-                      welcome to the Hotel Shubham Inn palace
+                      welcome to Hotel Shubham Inn palace
                     </h2>
                   </div>
                   <div className="bd-welcome__list">

@@ -21,7 +21,7 @@ const HeroSection: React.FC = () => {
                   data-wow-delay=".5s"
                 >
                   <h3 className="bd-section__title bd-hero__halfim-title mb-30">
-                    welcome to the
+                    welcome to 
                     <br />
                     hotel Shubham inn
                   </h3>

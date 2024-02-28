@@ -50,7 +50,6 @@ const WrapperCommon: React.FC<WrapperProps> = ({ children }) => {
           })()}
 
           {children}
-{/* hgdhgdx */}
           {(() => {
             switch (pathName) {
               case "/":

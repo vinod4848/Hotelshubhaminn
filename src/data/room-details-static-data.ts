@@ -25,14 +25,6 @@ export const roomsFacilitys = [
                 id:1,
                 feature:"Work Desk"
             },
-            {
-                id:2,
-                feature:"Bathtub"
-            },
-            {
-                id:3,
-                feature:"Balcony"
-            },
         ]
     },
 
@@ -43,18 +35,6 @@ export const roomsFacilitys = [
         {
             id:4,
             feature:"Free Wi-Fi"
-        },
-        {
-            id:5,
-            feature:"Interconnected Room"
-        },
-        {
-            id:6,
-            feature:"Electric Kettle"
-        },
-        {
-            id:7,
-            feature:"Iron/Ironing Board"
         },
         {
             id:8,
@@ -84,10 +64,6 @@ export const roomsFacilitys = [
             id:14,
             feature:"Mineral Water"
         },
-        {
-            id:15,
-            feature:"Balcony"
-        },
     ]
    },
 
@@ -106,20 +82,8 @@ export const roomsFacilitys = [
                 feature:"Closet"
             },
             {
-                id:18,
-                feature:"Minibar"
-            },
-            {
                 id:19,
                 feature:"Mirror"
-            },
-            {
-                id:20,
-                feature:"Clothes Rack"
-            },
-            {
-                id:21,
-                feature:"Blackout Curtains"
             },
         ]
     },
@@ -163,14 +127,6 @@ export const roomsFacilitys = [
         title:"Safety And Security",
         features:[
             {
-                id:26,
-                feature:"Cupboards with Locks"
-            },
-            {
-                id:27,
-                feature:"Electronic Safe"
-            },
-            {
                 id:28,
                 feature:"Safety"
             },
@@ -198,10 +154,6 @@ export const roomsFacilitys = [
                 id:32,
                 feature:"TV"
             },
-            {
-                id:33,
-                feature:"In-room DVD Player"
-            },
         ]
      },
     // Bathroom 33 - 41
@@ -209,18 +161,6 @@ export const roomsFacilitys = [
         id:8,
         title:"Bathroom",
         features:[
-            {
-                id:34,
-                feature:"Hairdryer"
-            },
-            {
-                id:35,
-                feature:"Slippers"
-            },
-            {
-                id:36,
-                feature:"Toiletries"
-            },
             {
                 id:37,
                 feature:"Towels"
@@ -233,47 +173,7 @@ export const roomsFacilitys = [
                 id:39,
                 feature:"Hot & Cold Water"
             },
-            {
-                id:40,
-                feature:"Weighing Scale"
-            },
-            {
-                id:41,
-                feature:"Emergency Cord"
-            },
-            {
-                id:42,
-                feature:"Hairdryer"
-            },
          
-        ]
-    },
-
-    // Other Facilities 42 - 46
-    {
-        id:9,
-        title:"Other Facilities",
-        features:[
-            {
-                id:43,
-                feature:"Mosquito Net"
-            },
-            {
-                id:44,
-                feature:"Terrace"
-            },
-            {
-                id:45,
-                feature:"Alarm Clock"
-            },
-            {
-                id:46,
-                feature:"Security"
-            },
-            {
-                id:47,
-                feature:"Kettle"
-            },
         ]
     },
 ]

@@ -120,11 +120,6 @@ const FooterThree = () => {
                                 <i className="fa-brands fa-twitter"></i>
                               </Link>
                             </div>
-                            <div className="bd-footer__social">
-                              <Link href="https://youtube.com/" target="_blank">
-                                <i className="fa-brands fa-youtube"></i>
-                              </Link>
-                            </div>
                           </div>
                         </div>
                       </div>
