@@ -1,7 +1,7 @@
 import NiceSelect from "@/components/common/NiceSelect";
 import Preloader from "@/components/common/Preloader";
 import { AppContext } from "@/contextApi/AppProvider";
-import { ADULTS, CHILDREN, ROOMS, ROOMTYPE } from "@/data/niceSelect-data";
+import { ADULTS, CHILDREN} from "@/data/niceSelect-data";
 import roomAndSuites from "@/data/roomAndSuitesData";
 import { AppContextType } from "@/interFace/interFace";
 import Link from "next/link";
@@ -26,11 +26,7 @@ const BookingForm = () => {
             <input type="text" defaultValue={room.title} readOnly />
           </div>
           <div className="bd-booking-4__input mb-15">
-            <input
-              type="text"
-              defaultValue={`price $ ${room.price}`}
-              readOnly
-            />
+            <input type="text" defaultValue={`Price  ${room.price}`} readOnly />
           </div>
           <div className="bd-booking-4__input mb-15">
             <input type="text" placeholder="First Name" />
@@ -63,22 +59,14 @@ const BookingForm = () => {
             />
           </div>
           <div className="bd-booking-4__input p-relative mb-15">
-            <NiceSelect
-              options={ROOMS}
-              defaultCurrent={0}
-              onChange={selectHandler}
-              name="Select Subject"
-              className="bd-nice-select"
-            />
+            <div className="bd-booking-4__input mb-15">
+              <input type="text" placeholder="Number of rooms" />
+            </div>
           </div>
           <div className="bd-booking-4__input p-relative mb-15">
-            <NiceSelect
-              options={ROOMTYPE}
-              defaultCurrent={0}
-              onChange={selectHandler}
-              name="Select Subject"
-              className="bd-nice-select"
-            />
+            <div className="bd-booking-4__input mb-15">
+              <input type="text" placeholder="Number of extra bad" />
+            </div>
           </div>
           <div className="bd-booking-4__input mb-15 ryl-block">
             <i className="flaticon-calendar-2 zindex-5"></i>
@@ -112,7 +100,7 @@ const BookingForm = () => {
               className="bd-btn dark-btn"
               type="submit"
             >
-              CheckOut{" "}
+              Book Now{" "}
               <span>
                 <i className="fa-regular fa-arrow-right-long"></i>
               </span>
