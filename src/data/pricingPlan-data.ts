@@ -116,7 +116,7 @@ const pricingPlan = [
     subTitle: "diamond pricing plan",
     sectionTitle: "choose our diamond package",
     details:
-      "Shubham Inn Hotel offers unforgettable food and drink options. A memorable stay with delicious breakfast Join us in celebrating the new year with a little special surprise.",
+      "Shubham Inn Hotel offers unforgettable  options. A memorable stay with delicious breakfast Join us in celebrating the new year with a little special surprise.",
   },
   {
     id: 4,
@@ -155,7 +155,7 @@ const pricingPlan = [
     subTitle: "diamond pricing plan",
     sectionTitle: "choose our diamond package",
     details:
-      "Shubham Inn Hotel offers unforgettable food and drink options. A memorable stay with delicious breakfast Join us in celebrating the new year with a little special surprise.",
+      "Shubham Inn Hotel offers unforgettable  options. A memorable stay with delicious breakfast Join us in celebrating the new year with a little special surprise.",
   },
 ];
 

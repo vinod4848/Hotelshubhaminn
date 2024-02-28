@@ -1,4 +1,4 @@
-import thumb1 from "../../public/assets/img/gallery/main-1.jpg";
+// import thumb1 from "../../public/assets/img/gallery/main-1.jpg";
 import thumb2 from "../../public/assets/img/gallery/main-2.jpg";
 import thumb3 from "../../public/assets/img/gallery/main-4.jpg";
 import thumb4 from "../../public/assets/img/gallery/main-5.jpg";
@@ -18,10 +18,10 @@ interface gallayDatatype {
   img:any
 }
 const gallaryData:gallayDatatype[] = [
-  {
-    id: 1,
-    img: thumb1,
-  },
+  // {
+  //   id: 1,
+  //   img: thumb1,
+  // },
   {
     id: 2,
     img: thumb2,

@@ -4,7 +4,7 @@ import thumb4 from "../../public/assets/img/gallery/main-4.jpg";
 import thumb5 from "../../public/assets/img/gallery/main-5.jpg";
 import thumb6 from "../../public/assets/img/gallery/main-6.jpg";
 import thumb7 from "../../public/assets/img/gallery/main-11.jpg";
-import thumb8 from "../../public/assets/img/gallery/main-1.jpg";
+// import thumb8 from "../../public/assets/img/gallery/main-1.jpg";
 import thumb10 from "../../public/assets/img/gallery/main-12.jpg";
 import thumb11 from "../../public/assets/img/gallery/main-13.jpg";
 import thumb12 from "../../public/assets/img/gallery/main-14.jpg";
@@ -44,11 +44,11 @@ const photoGallaryData = [
     img: thumb7,
     dynamicClass: "col-lg-6",
   },
-  {
-    id: 9,
-    img: thumb8,
-    dynamicClass: "col-lg-3",
-  },
+  // {
+  //   id: 9,
+  //   img: thumb8,
+  //   dynamicClass: "col-lg-3",
+  // },
   {
     id: 10,
     img: thumb10,

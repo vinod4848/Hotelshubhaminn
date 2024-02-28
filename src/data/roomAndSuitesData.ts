@@ -28,7 +28,7 @@ const roomAndSuites: RoomType[] = [
   
     
     details:
-      "Shubham Inn Hotel offers unforgettable food and drink options. A memorable stay with delicious breakfast Join us.",
+      "Shubham Inn Hotel offers unforgettable  options. A memorable stay with delicious breakfast Join us.",
     list3: "Breakfast",
   },
   {
@@ -43,7 +43,7 @@ const roomAndSuites: RoomType[] = [
     img1: detailImg3,
     img2: detailImg4,
     details:
-      "Shubham Inn Hotel offers unforgettable food and drink options. A memorable stay with delicious breakfast Join us.",
+      "Shubham Inn Hotel offers unforgettable options. A memorable stay with delicious breakfast Join us.",
     list3: "Breakfast",
   },
   {
@@ -58,7 +58,7 @@ const roomAndSuites: RoomType[] = [
     img1: detailImg5,
     img2: detailImg6,
     details:
-      "Shubham Inn Hotel offers unforgettable food and drink options. A memorable stay with delicious breakfast Join us.",
+      "Shubham Inn Hotel offers unforgettable  options. A memorable stay with delicious breakfast Join us.",
     list3: "Breakfast",
   },
   {
@@ -73,7 +73,7 @@ const roomAndSuites: RoomType[] = [
     img1: detailImg7,
     img2: detailImg8,
     details:
-      "Shubham Inn Hotel offers unforgettable food and drink options. A memorable stay with delicious breakfast Join us.",
+      "Shubham Inn Hotel offers unforgettable options. A memorable stay with delicious breakfast Join us.",
     list3: "Breakfast",
   },
 ];

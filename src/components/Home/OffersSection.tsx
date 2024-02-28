@@ -106,8 +106,8 @@ const OffersSection = () => {
                                   </Link>
                                 </h4>
                                 <p>
-                                  Shubham Inn Hotel offers unforgettable food
-                                  and drink options. A memorable stay with
+                                  Shubham Inn Hotel offers unforgettable 
+                                  options. A memorable stay with
                                   delicious
                                 </p>
                                 <div className="bd-offer__btn">
