@@ -84,7 +84,7 @@ const DynamicDetails = ({ id }: idType) => {
                         <span>
                           <i className="fa-light fa-times"></i> Non-Refundable
                         </span>
-                        GST Applicable :12%
+                        GST Applicable 12%
                       </p>
                     </div>
                   </div>
