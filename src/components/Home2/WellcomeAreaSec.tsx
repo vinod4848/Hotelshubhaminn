@@ -27,21 +27,20 @@ const WellcomeAreaSec = () => {
                     <h2 className="bd-section__title mb-30">
                       Welcome to
                       <br />
-                      Hotel Shubham inn
+                      Hotel Shubham Inn
                     </h2>
                   </div>
                   <p>
                     Hotel Shubham Inn promises an exceptional experience with
-                    its remarkable food and beverage offerings. Our commitment
-                    to providing unforgettable dining experiences sets us apart,
-                    making your stay truly memorable. Indulge in a culinary
-                    journey at our award-winning restaurant, where each dish is
-                    crafted with precision and passion. Our chefs take pride in
-                    using fresh, locally sourced ingredients to create a menu
-                    that caters to diverse tastes and preferences. From
-                    traditional Indian delicacies to international cuisines, our
-                    restaurant at Hotel Shubham Inn aims to satisfy the
-                    discerning palate of every guest
+                    its remarkable Our commitment to providing unforgettable
+                    experiences sets us apart, making your stay truly memorable.
+                    Indulge in a culinary journey at our award-winning
+                    restaurant, where each dish is crafted with precision and
+                    passion. Our chefs take pride in using fresh, locally
+                    sourced ingredients to create a menu that caters to diverse
+                    tastes and preferences. From traditional Indian delicacies
+                    to international cuisines, our restaurant at Hotel Shubham
+                    Inn aims to satisfy the discerning palate of every guest
                   </p>
                 </div>
                 <div className="bd-welcome__thumb mmb-80 transform-none">
@@ -77,7 +76,7 @@ const WellcomeAreaSec = () => {
                     data-wow-delay=".5s"
                   >
                     <div className="bd-welcome__meta">
-                      <span>+30</span>
+                      <span>+29</span>
                       <p>
                         <Link href="/room-one">ROOMS</Link>
                       </p>

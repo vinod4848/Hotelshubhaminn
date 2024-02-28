@@ -49,7 +49,7 @@
             font-weight: 400;
             font-size: 16px;
             line-height: 28px;
-            text-transform: capitalize;
+            // text-transform: capitalize;
             color: #393939;
         }
 
@@ -63,7 +63,7 @@
             p {
                 font-size: 20px;
                 line-height: 32px;
-                text-transform: capitalize;
+                // text-transform: capitalize;
             }
         }
     }
@@ -73,7 +73,7 @@
         font-size: 16px;
         line-height: 36px;
         letter-spacing: 0.07em;
-        text-transform: uppercase;
+        // text-transform: uppercase;
 
         span {
             color: var(--bd-common-black);
@@ -118,7 +118,7 @@
         span {
             font-size: 70px;
             line-height: 65px;
-            text-transform: capitalize;
+            // text-transform: capitalize;
             color: var(--bd-common-black);
             font-family: var(--bd-ff-heading);
 
@@ -131,7 +131,7 @@
             font-weight: 400;
             font-size: 24px;
             line-height: 30px;
-            text-transform: capitalize;
+            // text-transform: capitalize;
             color: var(--bd-common-black);
             margin-bottom: 0;
 
@@ -172,7 +172,7 @@
                             line-height: 28px;
                             display: block;
                             margin-bottom: 10px;
-                            text-transform: capitalize;
+                            // text-transform: capitalize;
                             color: var(--bd-common-black);
                         }
 
@@ -180,7 +180,7 @@
                             font-size: 24px;
                             line-height: 28px;
                             display: inline-block;
-                            text-transform: capitalize;
+                            // text-transform: capitalize;
                             color: var(--bd-common-black);
 
                             @media #{$xs} {
@@ -341,7 +341,7 @@
     }
 
     &__title {
-        text-transform: capitalize;
+        // text-transform: capitalize;
         margin-bottom: 65px;
     }
 
@@ -424,7 +424,7 @@
             p {
                 font-size: 16px;
                 font-weight: var(--bd-fw-medium);
-                text-transform: uppercase;
+                // text-transform: uppercase;
             }
         }
 

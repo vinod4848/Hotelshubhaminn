@@ -63,36 +63,22 @@ const Footer = () => {
                   <div className="col-xl-5 col-lg-6 col-md-6 col-sm-6">
                     <div className="bd-footer__widget bd-footer__widget-2 mb-50">
                       <div className="bd-footer__widget-content">
-                        <h4 className="bd-footer__widget-title mb-15">Rooms</h4>
+                        <h4 className="bd-footer__widget-title mb-15">
+                          Rooms & Suites
+                        </h4>
                         <div className="bd-footer__list mb-35">
                           <ul>
                             <li>
-                              <Link href="/">Overview</Link>
+                              <Link href="/">Deluxe Room</Link>
                             </li>
                             <li>
-                              <Link href="/room-one">Deluxe Sea View</Link>
+                              <Link href="/room-one">Super Deluxe Room</Link>
                             </li>
                             <li>
-                              <Link href="/room-two">Superior</Link>
-                            </li>
-                          </ul>
-                        </div>
-                        <h4 className="bd-footer__widget-title mb-15">
-                          Suites
-                        </h4>
-                        <div className="bd-footer__list">
-                          <ul>
-                            <li>
-                              <Link href="#">Overview</Link>
+                              <Link href="/room-two">Premium Room</Link>
                             </li>
                             <li>
-                              <Link href="#">Junior Corner</Link>
-                            </li>
-                            <li>
-                              <Link href="#">Executive</Link>
-                            </li>
-                            <li>
-                              <Link href="#">Premium Pool</Link>
+                              <Link href="/room-two">Suite Room</Link>
                             </li>
                           </ul>
                         </div>

@@ -35,7 +35,7 @@ const AboutSection = () => {
                     We have 13+ years of Experience{" "}
                   </h2>
                   <p className="mb-30">
-                    Shubham Inn Hotel offers unforgettable food and drink
+                    Shubham Inn Hotel offers unforgettable
                     options. A memorable stay with delicious breakfast Join us
                     in celebrating the new year with a little special surprise
                     from our end.

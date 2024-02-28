@@ -4,13 +4,7 @@ export const faqData: faqInterFace[] = [
   {
     id: 1,
     title: "What is your check-in and check-out time?",
-    details: "Our check-in time is 12:00 AM and check-out time is 11:00 AM",
-  },
-  {
-    id: 2,
-    title: "When you book direct, you’ll get the lowest price?",
-    details:
-      "Whether you are at home or away, world-class Four Seasons property management protects, secures and maintains your residence for you.",
+    details: "Our check-in time is 10:00 AM and check-out time is 11:00 AM",
   },
   {
     id: 3,
@@ -26,8 +20,13 @@ export const faqData: faqInterFace[] = [
   },
   {
     id: 5,
-    title: "Get a free night starting at just 7,500 points.",
+    title: "What are the dining options available at the hotel?",
+    details: "We have multiple dining options",
+  },
+  {
+    id: 6,
+    title: "Are there meeting rooms available for events?",
     details:
-      "Whether you are at home or away, world-class Four Seasons property management protects, secures and maintains your residence for you.",
+      "Yes, we have meeting rooms and event spaces available for booking. Contact our  team for more information.",
   },
 ];

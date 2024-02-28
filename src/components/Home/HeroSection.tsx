@@ -21,13 +21,13 @@ const HeroSection: React.FC = () => {
                   data-wow-delay=".5s"
                 >
                   <h3 className="bd-section__title bd-hero__halfim-title mb-30">
-                    welcome to 
+                    Welcome to
                     <br />
-                    hotel Shubham inn
+                    Hotel Shubham Inn
                   </h3>
                 </div>
                 <p className=" wow fadeInUp" data-wow-delay=".7s">
-                  Shubham Inn Hotel offers unforgettable food and drink options.
+                  Shubham Inn Hotel offers unforgettable options.
                   Enjoy dinner at the award-winning
                 </p>
               </div>
