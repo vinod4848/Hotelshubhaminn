@@ -33,7 +33,7 @@ const BookingFormSec = () => {
                            </p>
                            <div className="bd-booking-sidebar__contact">
                               <span> Call Us:</span>
-                              <Link href="tel:99411123456"> 994 1112 3456</Link>
+                              <Link href="tel:+917710085020">+917710085020</Link>
                            </div>
                         </div>
                      </div>

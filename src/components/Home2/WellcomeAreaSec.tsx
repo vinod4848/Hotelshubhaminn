@@ -77,15 +77,15 @@ const WellcomeAreaSec = () => {
                     data-wow-delay=".5s"
                   >
                     <div className="bd-welcome__meta">
-                      <span>+76</span>
+                      <span>+30</span>
                       <p>
-                        <Link href="/room-one">Big suites</Link>
+                        <Link href="/room-one">ROOMS</Link>
                       </p>
                     </div>
                     <div className="bd-welcome__meta-2">
                       <div className="bd-welcome__meta-content">
                         <span>Reservation</span>
-                        <Link href="tel:23650003">(91) 2365 0003</Link>
+                        <Link href="tel:+917710085020">(91) 7710085020</Link>
                       </div>
                     </div>
                   </div>

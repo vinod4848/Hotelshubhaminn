@@ -60,15 +60,15 @@ const NeaarmeArea = () => {
             <div className="col-md-3 mb-4">
               <div className="card">
                 <img
-                  src="https://lh5.googleusercontent.com/p/AF1QipMr2rV5QmjlEfCUhd4VF5OItTyxhBQI7pjEqpol=w408-h306-k-no"
+                  src="https://content.jdmagicbox.com/comp/mumbai/v2/022pxx22.xx22.210710002504.n3v2/catalogue/ayushman-hospital-bhandup-west-mumbai-hospitals-pr2xgb6jir.jpg"
                   className="card-img-top"
                   alt=""
                   style={{ width: "328px", height: "220px" }}
                 />
                 <div className="card-body text-center">
-                  <h5 className="card-title">Shivdhara Tours & Trekkers</h5>
+                  <h5 className="card-title">Ayushman Hospital</h5>
                   <button className="btn btn-danger position-absolute top-0 end-0 m-2">
-                    1.5Km
+                    95.M
                   </button>
                 </div>
               </div>
@@ -77,15 +77,15 @@ const NeaarmeArea = () => {
             <div className="col-md-3 mb-4">
               <div className="card">
                 <img
-                  src="https://lh5.googleusercontent.com/p/AF1QipPORNd1Js1YDHBDEPOGz90A5ElnwZ3PwarkqogN=w408-h272-k-no"
+                  src="https://lh5.googleusercontent.com/p/AF1QipMcut2m4undU9bc6Ey44pmiMAEiq_6SWq3bgI-P=w408-h306-k-no"
                   className="card-img-top"
                   alt=""
                   style={{ width: "328px", height: "220px" }}
                 />
                 <div className="card-body text-center">
-                  <h5 className="card-title">Sanjay Gandhi National Park</h5>
+                  <h5 className="card-title">Kukreja Park</h5>
                   <button className="btn btn-danger position-absolute top-0 end-0 m-2">
-                    2.2Km
+                    650M
                   </button>
                 </div>
               </div>
@@ -94,15 +94,15 @@ const NeaarmeArea = () => {
             <div className="col-md-3 mb-4">
               <div className="card">
                 <img
-                  src="https://lh5.googleusercontent.com/p/AF1QipPboRxuwJiHCAqX4Ag81FG3tMtvAsnYIZfjW4Sd=w427-h240-k-no"
+                  src="https://lh5.googleusercontent.com/p/AF1QipMRH92Fqkb4Y3XuT-7a5agX3qw0xLuwXCwk8-cy=w408-h306-k-no"
                   className="card-img-top"
                   alt=""
                   style={{ width: "328px", height: "220px" }}
                 />
                 <div className="card-body text-center">
-                  <h5 className="card-title">Nine Cuisine Family Resto Bar</h5>
+                  <h5 className="card-title">Janta Restaurant & Bar</h5>
                   <button className="btn btn-danger position-absolute top-0 end-0 m-2">
-                    97.M
+                    1.2Km
                   </button>
                 </div>
               </div>
@@ -128,15 +128,15 @@ const NeaarmeArea = () => {
             <div className="col-md-3 mb-4">
               <div className="card">
                 <img
-                  src="https://lh5.googleusercontent.com/p/AF1QipOw95mXjYNe9ZMaa0-0iWK-xOX84QakNGT9drfF=w350-h139-p-k-no"
+                  src="https://lh5.googleusercontent.com/p/AF1QipPNzaG-3r6kJYGyN-8sQ_qooiRbiSLi1X86GKsL=w426-h240-k-no"
                   className="card-img-top"
                   alt=""
                   style={{ width: "328px", height: "220px" }}
                 />
                 <div className="card-body text-center">
-                  <h5 className="card-title">Sameer Hill</h5>
+                  <h5 className="card-title">Bar Tales</h5>
                   <button className="btn btn-danger position-absolute top-0 end-0 m-2">
-                    6.5Km
+                    2.5Km
                   </button>
                 </div>
               </div>

@@ -44,7 +44,7 @@ const HearderThree = () => {
                       </div>
                       <div className="bd-header__meta-text">
                         <p>
-                          <Link href="tel:02235036349">02235036349</Link>
+                          <Link href="tel:+917710085020">+917710085020</Link>
                         </p>
                       </div>
                     </div>
