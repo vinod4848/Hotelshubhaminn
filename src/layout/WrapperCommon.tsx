@@ -13,17 +13,21 @@ import HeaderTwo from "./header/HeaderTwo";
 import HeaderFour from "./header/HeaderFour";
 import Footer from "./footer/Footer";
 import FooterThree from "./footer/FooterThree";
+
 interface WrapperProps {
   children: React.ReactNode;
 }
+
 const WrapperCommon: React.FC<WrapperProps> = ({ children }) => {
   const pathName = usePathname();
   const isLoading = useLoading(true, 100);
+
   useEffect(() => {
     setTimeout(() => {
       animationCreate();
     }, 200);
   }, []);
+
   return (
     <>
       {isLoading ? (
@@ -50,9 +54,9 @@ const WrapperCommon: React.FC<WrapperProps> = ({ children }) => {
           {(() => {
             switch (pathName) {
               case "/":
-                return <Footer customeClass="bd-footer bg-theme-2" />;
+                return <FooterThree />;
               case "/home-two":
-                return <Footer customeClass="bd-footer footer-bg" />;
+                return <FooterThree />;
               case "/home-four":
                 return <FooterThree />;
               default:
