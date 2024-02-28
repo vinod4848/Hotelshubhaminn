@@ -3,7 +3,7 @@ import thumb2 from "../../public/assets/img/gallery/main-2.jpg";
 import thumb3 from "../../public/assets/img/gallery/main-4.jpg";
 import thumb4 from "../../public/assets/img/gallery/main-5.jpg";
 import thumb5 from "../../public/assets/img/gallery/main-6.jpg";
-import thumb6 from "../../public/assets/img/gallery/main-9.jpg";
+// import thumb6 from "../../public/assets/img/gallery/main-9.jpg";
 import thumb7 from "../../public/assets/img/gallery/main-10.jpg";
 import thumb8 from "../../public/assets/img/gallery/main-15.jpg";
 import thumb9 from "../../public/assets/img/gallery/main-19.jpg";
@@ -38,10 +38,10 @@ const gallaryData:gallayDatatype[] = [
     id: 5,
     img: thumb5,
   },
-  {
-    id: 6,
-    img: thumb6,
-  },
+  // {
+  //   id: 6,
+  //   img: thumb6,
+  // },
   {
     id: 7,
     img: thumb7,

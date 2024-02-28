@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import bgImg from "../../../public/assets/img/bg/faq-bg.jpg";
 import { faqData } from "@/data/faq-data";
 const FaqTwo = () => {
-  const [activeItem, setActiveItem] = useState<number>(1)
+  const [activeItem, setActiveItem] = useState<number>(1);
   const [active, setactive] = useState<boolean>(true);
   const handleAccordionClick = (id: number) => {
     setActiveItem(id);
@@ -24,7 +24,7 @@ const FaqTwo = () => {
                   common question answer
                 </p>
                 <h2 className="bd-section__title mb-25">
-                  frequently ask questions
+                  Frequently Asked Questions
                 </h2>
               </div>
             </div>

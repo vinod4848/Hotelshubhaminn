@@ -22,7 +22,12 @@ const FeedBackSection = () => {
           >
             <div className="col-xl-12 col-lg-12">
               <div className="bd-section__title-wrapper text-center is-white">
-                <p className="bd-section__subtitle mb-20" style={{ color: '#ee313d ' }}>Feedback</p>
+                <p
+                  className="bd-section__subtitle mb-20"
+                  style={{ color: "#ee313d " }}
+                >
+                  Feedback
+                </p>
                 <h2 className=" bd-section__title mb-55 mmb-30">
                   What our customers are saying
                 </h2>
@@ -87,11 +92,11 @@ const FeedBackSection = () => {
                           </div>
                           <div className="d-flex justify-content-center align-items-center">
                             <div className="bd-testimonial-4__thumb">
-                              <Image
+                              {/* <Image
                                 src={item.img}
                                 style={{ width: "100%", height: "100%" }}
                                 alt="image not found"
-                              />
+                              /> */}
                             </div>
                             <div className="bd-testimonial-4__client">
                               <h5 className="bd-testimonial-4__client-name">
