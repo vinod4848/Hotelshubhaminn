@@ -111,7 +111,7 @@ const RoomSuiteSection = () => {
                                     {item.list4 && (
                                       <Fragment>
                                         <span>
-                                          <i className="flaticon-breakfast"></i>
+                                          <i className="flaticon-bathtub">👕</i>
                                         </span>
                                         <span>{item.list4}</span>
                                       </Fragment>
@@ -120,7 +120,7 @@ const RoomSuiteSection = () => {
                                     {item.list5 && (
                                       <Fragment>
                                         <span>
-                                          <i className="flaticon-breakfast"></i>
+                                          <i className="flaticon-laundry">🧺</i>
                                         </span>
                                         <span>{item.list5}</span>
                                       </Fragment>

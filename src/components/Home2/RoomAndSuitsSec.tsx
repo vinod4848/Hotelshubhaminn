@@ -48,14 +48,14 @@ const RoomAndSuitsSec = ({ title, sectionTitle }: propsType) => {
 
                             {item.list4 && (
                               <Fragment>
-                                <span><i className="flaticon-bathtub"></i></span>
+                                 <i className="flaticon-bathtub">👕</i>
                                 <span>{item.list4}</span>
                               </Fragment>
                             )}
 
                             {item.list5 && (
                               <Fragment>
-                                <span><i className="flaticon-laundry"></i></span>
+                                <i className="flaticon-laundry">🧺</i>
                                 <span>{item.list5}</span>
                               </Fragment>
                             )}

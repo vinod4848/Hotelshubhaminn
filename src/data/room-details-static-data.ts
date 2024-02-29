@@ -132,7 +132,7 @@ export const roomsFacilitys = [
       },
       {
         id: 31,
-        feature: "24/7 cctv camera",
+        feature: "24/7 security camera",
       },
     ],
   },
