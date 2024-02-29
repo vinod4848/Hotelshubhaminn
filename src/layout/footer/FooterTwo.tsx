@@ -63,7 +63,9 @@ const FooterTwo = () => {
                   <div className="col-xl-5 col-lg-6 col-md-6 col-sm-6">
                     <div className="bd-footer__widget bd-footer__widget-2 mb-50">
                       <div className="bd-footer__widget-content">
-                        <h4 className="bd-footer__widget-title mb-15">Rooms & Suite</h4>
+                        <h4 className="bd-footer__widget-title mb-15">
+                          Rooms & Suite
+                        </h4>
                         <div className="bd-footer__list mb-35">
                           <ul>
                             <li>
@@ -83,31 +85,19 @@ const FooterTwo = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="col-xxl-3 col-xl-4 col-lg-6 col-md-6 col-sm-6">
-                    <div className="bd-footer__widget bd-footer__widget-3 mb-50">
-                      <div className="bd-footer-widget__content">
-                        <h4 className="bd-footer__widget-title mb-15">
-                          Follow us
-                        </h4>
-                        <div className="bd-footer__list">
-                          <div className="bd-footer__social-wrapper">
-                            <div className="bd-footer__social">
-                              <Link
-                                href="https://www.facebook.com/"
-                                target="_blank"
-                              >
-                                <i className="fa-brands fa-facebook-f"></i>
-                              </Link>
-                            </div>
-                            <div className="bd-footer__social">
-                              <Link href="https://twitter.com/" target="_blank">
-                                <i className="fa-brands fa-twitter"></i>
-                              </Link>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+                  <div className="col-xxl-3 col-xl-4 col-lg-6 col-md-12 col-sm-6">
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3768.9582305776707!2d72.93456397440688!3d19.153305582067315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTnCsDA5JzExLjkiTiA3MsKwNTYnMTMuNyJF!5e0!3m2!1sen!2sin!4v1709020347509!5m2!1sen!2sin"
+                      style={{
+                        border: 0,
+                        width: "100%",
+                        height: "250px",
+                        marginLeft: "-15px",
+                      }}
+                      allowFullScreen={true}
+                      loading="lazy"
+                      referrerPolicy="no-referrer-when-downgrade"
+                    ></iframe>
                   </div>
                 </div>
               </div>
