@@ -38,6 +38,7 @@ export interface RoomType {
   list2?: string;
   list3?: string;
   list4?: string;
+  list5?: string;
 }
 export interface EventType {
   id?: number;

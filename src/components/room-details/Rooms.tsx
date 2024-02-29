@@ -40,6 +40,8 @@ const Rooms = () => {
                         <div className="bd-room__list">
                           <div className="bd-room__list-item">
                             <i className="flaticon-breakfast"></i>
+                            <i className="flaticon-breakfast"></i>
+                            <i className="flaticon-breakfast"></i>
                             <p> {item.list3} </p>
                           </div>
                         </div>

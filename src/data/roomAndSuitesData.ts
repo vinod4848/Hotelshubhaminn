@@ -75,6 +75,8 @@ const roomAndSuites: RoomType[] = [
     details:
       "Shubham Inn Hotel offers unforgettable options. A memorable stay with delicious breakfast Join us.",
     list3: "Breakfast",
+    list4: "Laundry",
+    list5: "Bathtub",
   },
 ];
 

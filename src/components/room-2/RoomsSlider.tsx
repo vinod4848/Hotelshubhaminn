@@ -6,6 +6,7 @@ import "swiper/css/bundle";
 import roomAndSuites from "@/data/roomAndSuitesData";
 import Image from "next/image";
 import Link from "next/link";
+import { Fragment } from "react";
 const RoomsSlider = () => {
   return (
     <>
@@ -59,23 +60,34 @@ const RoomsSlider = () => {
                       </h4>
                       <div className="bd-room__price mb-30">
                         <p>
-                        ₹{item.price} <span>/{item.time}</span>
+                          ₹{item.price} <span>/{item.time}</span>
                         </p>
                       </div>
-                      <div className="bd-room__thumb-wrap mb-30">
-                        <div className="bd-room__thumb">
-                          <Image src={item.img} alt="room image" />
-                        </div>
-                        <div className="bd-room__details">
-                          <p>{item.details}</p>
-                          <div className="bd-room__list">                        
-                            <div className="bd-room__list-item">
-                              <i className="flaticon-breakfast"></i>
-                              <p> {item.list3} </p>
-                            </div>
+
+                      <div className="bd-room__details">
+                        <p>{item.details}</p>
+                        <div className="bd-room__list">
+                          <div className="bd-room__list-item">
+                           <span> <i className="flaticon-breakfast"></i></span>
+                            <span>{item.list3}</span>
+
+                            {item.list4 && (
+                              <Fragment>
+                                <span><i className="flaticon-bathtub"></i></span>
+                                <span>{item.list4}</span>
+                              </Fragment>
+                            )}
+
+                            {item.list5 && (
+                              <Fragment>
+                                <span><i className="flaticon-laundry"></i></span>
+                                <span>{item.list5}</span>
+                              </Fragment>
+                            )}
                           </div>
                         </div>
                       </div>
+
                       <div className="bd-room__btn">
                         <Link href={`/room-details/${item.id}`}>
                           <span>book now</span>

@@ -6,6 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import roomAndSuites from "@/data/roomAndSuitesData";
 import background from "../../../public/assets/img/bg/bd-room.jpg";
+import { Fragment } from "react";
 const RoomSuiteSection = () => {
   return (
     <>
@@ -21,7 +22,12 @@ const RoomSuiteSection = () => {
           >
             <div className="col-xl-6 col-lg-6 mb-0">
               <div className="bd-section__title-wrapper is-white">
-                <p className="bd-section__subtitle mb-20" style={{ color: '#ee313d ' }}>Rooms</p>
+                <p
+                  className="bd-section__subtitle mb-20"
+                  style={{ color: "#ee313d " }}
+                >
+                  Rooms
+                </p>
                 <h2 className=" bd-section__title mb-50 mmb-30">
                   Our Rooms & Suites
                 </h2>
@@ -80,7 +86,7 @@ const RoomSuiteSection = () => {
                             </h4>
                             <div className="bd-room__price mb-30">
                               <p>
-                              ₹ {item.price} <span>/ {item.time} </span>
+                                ₹ {item.price} <span>/ {item.time} </span>
                               </p>
                             </div>
                             <div className="bd-room__thumb-wrap mb-30">
@@ -91,12 +97,34 @@ const RoomSuiteSection = () => {
                                   alt="room image"
                                 />
                               </div>
+
                               <div className="bd-room__details">
                                 <p>{item.details}</p>
                                 <div className="bd-room__list">
                                   <div className="bd-room__list-item">
-                                    <i className="flaticon-breakfast"></i>
-                                    <p> {item.list3} </p>
+                                    <span>
+                                      {" "}
+                                      <i className="flaticon-breakfast"></i>
+                                    </span>
+                                    <span>{item.list3}</span>
+
+                                    {item.list4 && (
+                                      <Fragment>
+                                        <span>
+                                          <i className="flaticon-breakfast"></i>
+                                        </span>
+                                        <span>{item.list4}</span>
+                                      </Fragment>
+                                    )}
+
+                                    {item.list5 && (
+                                      <Fragment>
+                                        <span>
+                                          <i className="flaticon-breakfast"></i>
+                                        </span>
+                                        <span>{item.list5}</span>
+                                      </Fragment>
+                                    )}
                                   </div>
                                 </div>
                               </div>

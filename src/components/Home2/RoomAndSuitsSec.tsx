@@ -2,6 +2,7 @@ import React from "react";
 import roomBg from "../../../public/assets/img/bg/bd-room.jpg";
 import roomAndSuites from "@/data/roomAndSuitesData";
 import Image from "next/image";
+import { Fragment } from "react";
 import Link from "next/link";
 interface propsType {
   title: string;
@@ -37,15 +38,31 @@ const RoomAndSuitsSec = ({ title, sectionTitle }: propsType) => {
                         <div className="bd-room__thumb">
                           <Image src={item.img} alt="room image" />
                         </div>
+
                         <div className="bd-room__details">
-                          <p> {item.details} </p>
-                          <div className="bd-room__list">
-                            <div className="bd-room__list-item">
-                              <i className="flaticon-breakfast"></i>
-                              <p> {item.list3} </p>
-                            </div>
+                        <p>{item.details}</p>
+                        <div className="bd-room__list">
+                          <div className="bd-room__list-item">
+                           <span> <i className="flaticon-breakfast"></i></span>
+                            <span>{item.list3}</span>
+
+                            {item.list4 && (
+                              <Fragment>
+                                <span><i className="flaticon-bathtub"></i></span>
+                                <span>{item.list4}</span>
+                              </Fragment>
+                            )}
+
+                            {item.list5 && (
+                              <Fragment>
+                                <span><i className="flaticon-laundry"></i></span>
+                                <span>{item.list5}</span>
+                              </Fragment>
+                            )}
                           </div>
                         </div>
+                      </div>
+
                       </div>
                       <div className="bd-room__btn">
                         <Link href={`/booking-form/${item.id}`}>

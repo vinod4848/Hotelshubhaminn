@@ -111,14 +111,12 @@ const FooterTwo = () => {
               <div className="bd-footer__copyright pt-15 pb-35">
                 <div className="bd-footer__copyright-wrap d-flex justify-content-center">
                   <div className="bd-footer__copyright-text">
-                    <p>
+                  <p>
                       &copy;{" "}
-                      <Link
-                        href="https://www.integrate360.in"
-                        rel="nofollow"
-                      ></Link>
-                      2024 Hotel Shubham Inn. All Rights Reserved. Designed &
-                      Developed by Integrate 360
+                      <Link href="https://www.integrate360.in" rel="nofollow">
+                        2024 Hotel Shubham Inn. All Rights Reserved. Designed &
+                        Developed by Integrate 360
+                      </Link>
                     </p>
                   </div>
                 </div>
