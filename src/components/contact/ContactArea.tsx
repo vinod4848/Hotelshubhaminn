@@ -8,7 +8,10 @@ const ContactArea = () => {
     name: "",
     email: "",
     phone: "",
-    subject: "",
+    date: "",
+    rooms: "",
+    checkin: "",
+    checkout: "",
     comments: "",
   });
 
@@ -26,8 +29,10 @@ const ContactArea = () => {
         Name: ${formData.name}
         Email: ${formData.email}
         Phone: ${formData.phone}
-        Subject: ${formData.subject}
         Comments: ${formData.comments}
+        Rooms: ${formData.rooms}
+        Checkin: ${formData.checkin}
+        heckout: ${formData.checkout}
       `,
     };
 
@@ -51,8 +56,11 @@ const ContactArea = () => {
             name: "",
             email: "",
             phone: "",
-            subject: "",
+            date: "",
             comments: "",
+            rooms: "",
+            checkin: "",
+            checkout: "",
           });
         },
         (error: any) => {
@@ -125,12 +133,36 @@ const ContactArea = () => {
                   </div>
                   <div className="col-md-6">
                     <div className="bd-contact-input mb-30">
-                      <label htmlFor="subject">Subject</label>
+                      <label htmlFor="rooms">Number of rooms</label>
                       <input
-                        id="subject"
-                        type="text"
-                        name="subject"
-                        value={formData.subject}
+                        id="rooms"
+                        type="number"
+                        name="rooms"
+                        value={formData.rooms}
+                        onChange={handleChange}
+                      />
+                    </div>
+                  </div>
+                  <div className="col-md-6">
+                    <div className="bd-contact-input mb-30">
+                      <label htmlFor="date">Check in</label>
+                      <input
+                        id="checkin"
+                        type="date"
+                        name="checkin"
+                        value={formData.checkin}
+                        onChange={handleChange}
+                      />
+                    </div>
+                  </div>
+                  <div className="col-md-6">
+                    <div className="bd-contact-input mb-30">
+                      <label htmlFor="checkout">Check out</label>
+                      <input
+                        id="checkout"
+                        type="date"
+                        name="checkout"
+                        value={formData.checkout}
                         onChange={handleChange}
                       />
                     </div>
