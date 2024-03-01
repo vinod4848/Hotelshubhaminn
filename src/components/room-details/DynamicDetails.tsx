@@ -68,11 +68,11 @@ const DynamicDetails = ({ id }: idType) => {
                     </h3>
                     <div>
                       <p>
-                        <span>₹{room?.singleOccupancy} Single Occupancy</span>/
+                        <span>₹{room?.doubleOccupancy} Single Occupancy</span>/
                         {room?.time}
                       </p>
                       <p>
-                        <span>₹{room?.doubleOccupancy} Double Occupancy</span>/
+                        <span>₹{room?.singleOccupancy} Double Occupancy</span>/
                         {room?.time}
                       </p>
                       <p>
