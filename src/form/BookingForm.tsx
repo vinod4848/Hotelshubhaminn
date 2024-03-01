@@ -2,6 +2,7 @@ import Preloader from "@/components/common/Preloader";
 import { AppContext } from "@/contextApi/AppProvider";
 import roomAndSuites from "@/data/roomAndSuitesData";
 import { AppContextType } from "@/interFace/interFace";
+import Link from "next/link";
 import React, { useContext, useState } from "react";
 import DatePicker from "react-datepicker";
 
@@ -20,12 +21,8 @@ const BookingForm = () => {
 
   const selectHandler = () => {};
 
-  const totalPrice =
-    room && typeof room.price !== "undefined"
-      ? extraBed === "1"
-        ? room.price + 800
-        : room.price
-      : 0;
+const totalPrice = room && typeof room.price !== 'undefined' ? (extraBed === '1' ? room.price + 800 : room.price) : 0;
+
 
   return (
     <form action="#">
@@ -98,10 +95,7 @@ const BookingForm = () => {
           />
         </div>
         <div className="bd-booking-4__input message mb-30">
-          <textarea
-            name="message"
-            placeholder="Special Requirements"
-          ></textarea>
+          <textarea name="message" placeholder="Special Requirements"></textarea>
         </div>
         <div className="glo-booking-btn">
           <button type="submit" className="bd-btn dark-btn">
