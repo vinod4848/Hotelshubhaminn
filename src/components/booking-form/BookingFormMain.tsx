@@ -1,18 +1,13 @@
-
-import React from 'react';
-import Breadcrumb from '../common/breadcrumb/Breadcrumb';
-import BookingFormSec from './BookingFormSec';
-import RoomView from '../Home-4/RoomView';
-import FeatureAreaSec from '../Home2/FeatureAreaSec';
+import React from "react";
+import Breadcrumb from "../common/breadcrumb/Breadcrumb";
+import BookingFormSec from "./BookingFormSec";
 const BookingFormMain = () => {
-    return (
-        <>
-            <Breadcrumb title='Booking Form'/>
-             <BookingFormSec/>
-             <RoomView/>
-             <FeatureAreaSec customeCalss='theme-bg-2'/>
-        </>
-    );
+  return (
+    <>
+      <Breadcrumb title="Booking Form" />
+      <BookingFormSec />
+    </>
+  );
 };
 
 export default BookingFormMain;
