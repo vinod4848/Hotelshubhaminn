@@ -17,29 +17,13 @@ const OfferSec = () => {
                     <span>{item.offer}</span>
                   </div>
                   <div className="bd-offer__content-visble">
-                    <h4 className="bd-offer__title-2">
-                      {item.tags}
-                      {/* <Link href={`/offer-details/${item.id}`}>
-                        {item.tags}
-                      </Link> */}
-                    </h4>
+                    <h4 className="bd-offer__title-2">{item.tags}</h4>
                   </div>
                   <div className="bd-offer__content">
-                    <h4 className="bd-offer__title">
-                      {item.tags}
-                      {/* <Link href={`/offer-details/${item.id}`}>
-                       
-                      </Link> */}
-                    </h4>
+                    <h4 className="bd-offer__title">{item.tags}</h4>
                     <p>{item.title}</p>
                     <div className="bd-offer__btn">
-                      <Link
-                        href={
-                          item.id === 4
-                            ? `/contact`
-                            : `/booking-form/${item.id}`
-                        }
-                      >
+                      <Link href="/contact">
                         Book Now
                         <i className="fa-regular fa-angle-right"></i>
                       </Link>
