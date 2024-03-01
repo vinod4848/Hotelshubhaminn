@@ -86,25 +86,6 @@ const OffCanvasMain = () => {
                 </li>
               </ul>
             </div>
-            <div className="offcanvas__social">
-              <ul>
-                <li>
-                  <Link target="_blank" href="https://www.facebook.com/">
-                    <i className="fa-brands fa-facebook-f"></i>
-                  </Link>
-                </li>
-                <li>
-                  <Link target="_blank" href="https://twitter.com/">
-                    <i className="fa-brands fa-twitter"></i>
-                  </Link>
-                </li>
-                <li>
-                  <Link target="_blank" href="https://www.youtube.com/">
-                    <i className="fa-brands fa-youtube"></i>
-                  </Link>
-                </li>
-              </ul>
-            </div>
           </div>
         </div>
       </div>

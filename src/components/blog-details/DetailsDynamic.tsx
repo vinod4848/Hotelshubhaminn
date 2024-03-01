@@ -161,25 +161,6 @@ const DetailsDynamic = ({ search, id }: propsType) => {
                 </li>
               </ul>
             </div>
-            <div className="bd-blog-3-social">
-              <ul>
-                <li>
-                  <Link target="_blank" href="https://www.facebook.com/">
-                    <i className="fa-brands fa-facebook-f"></i>
-                  </Link>
-                </li>
-                <li>
-                  <Link target="_blank" href="https://twitter.com/">
-                    <i className="fa-brands fa-twitter"></i>
-                  </Link>
-                </li>
-                <li>
-                  <Link target="_blank" href="https://www.youtube.com/">
-                    <i className="fa-brands fa-youtube"></i>
-                  </Link>
-                </li>
-              </ul>
-            </div>
           </div>
           <div className="bd-blog-3-details-nav">
             <div className="bd-blog-3-details-nav-prev">
@@ -349,25 +330,6 @@ const DetailsDynamic = ({ search, id }: propsType) => {
                       </li>
                       <li>
                         <Link href="/blog">Booking</Link>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="bd-blog-3-social">
-                    <ul>
-                      <li>
-                        <Link target="_blank" href="https://www.facebook.com/">
-                          <i className="fa-brands fa-facebook-f"></i>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link target="_blank" href="https://twitter.com/">
-                          <i className="fa-brands fa-twitter"></i>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link target="_blank" href="https://www.youtube.com/">
-                          <i className="fa-brands fa-youtube"></i>
-                        </Link>
                       </li>
                     </ul>
                   </div>

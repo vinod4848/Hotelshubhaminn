@@ -25,11 +25,11 @@ const roomAndSuites: RoomType[] = [
     img: thumb1,
     img1: detailImg1,
     img2: detailImg2,
-  
     
     details:
       "Shubham Inn Hotel offers unforgettable  options. A memorable stay with delicious breakfast Join us.",
     list3: "Breakfast",
+    list4: "Laundry",
   },
   {
     id: 2,
@@ -45,6 +45,7 @@ const roomAndSuites: RoomType[] = [
     details:
       "Shubham Inn Hotel offers unforgettable options. A memorable stay with delicious breakfast Join us.",
     list3: "Breakfast",
+    list4: "Laundry",
   },
   {
     id: 3,
@@ -60,6 +61,7 @@ const roomAndSuites: RoomType[] = [
     details:
       "Shubham Inn Hotel offers unforgettable  options. A memorable stay with delicious breakfast Join us.",
     list3: "Breakfast",
+    list4: "Laundry",
   },
   {
     id: 4,
