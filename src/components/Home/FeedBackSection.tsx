@@ -102,9 +102,9 @@ const FeedBackSection = () => {
                               <h5 className="bd-testimonial-4__client-name">
                                 {item.claintName}
                               </h5>
-                              <span className="bd-testimonial-4__client-position">
+                              {/* <span className="bd-testimonial-4__client-position">
                                 {item.address}
-                              </span>
+                              </span> */}
                             </div>
                           </div>
                         </div>
