@@ -32,8 +32,8 @@ const HeaderOne = () => {
                         alt="image not found"
                         style={{
                           bottom: "-4px",
-                          height: "40px",
-                          width: "138px",
+                          height: "58px",
+                          width: "130px",
                           position: "absolute",
                           color: "transparent",
                         }}

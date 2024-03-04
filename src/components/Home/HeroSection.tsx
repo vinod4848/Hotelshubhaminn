@@ -27,8 +27,10 @@ const HeroSection: React.FC = () => {
                   </h3>
                 </div>
                 <p className=" wow fadeInUp" data-wow-delay=".7s">
-                  Shubham Inn Hotel offers unforgettable options.
-                  Enjoy dinner at the award-winning
+                  Hotel Shubham Inn, where luxury meets comfort, and every stay
+                  is a delightful experience, At Hotel Shubham Inn, we extend
+                  our heartfelt welcome to you, ensuring a stay filled with
+                  exceptional service and relaxation
                 </p>
               </div>
             </div>

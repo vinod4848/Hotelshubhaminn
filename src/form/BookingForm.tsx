@@ -12,6 +12,7 @@ const BookingForm = () => {
   const room = roomAndSuites.find((item) => item.id == roomId);
 
   const [formData, setFormData] = useState({
+    title: room ? room.title : "",
     firstName: "",
     lastName: "",
     email: "",
@@ -62,8 +63,8 @@ const BookingForm = () => {
             icon: "success",
             confirmButtonText: "OK",
           });
-
           setFormData({
+            title: "",
             firstName: "",
             lastName: "",
             email: "",
@@ -84,12 +85,24 @@ const BookingForm = () => {
     <form onSubmit={handleSubmit}>
       <div className="bd-booking-4__form">
         <div className="bd-booking-4__input mb-15">
-          <input type="text" defaultValue={room.title} readOnly />
+          <select
+            name="title"
+            value={formData.title}
+            onChange={handleChange}
+            style={{ height: "100%", width: "100%" }}
+          >
+            <option value="">Select Room</option>
+            <option value="Deluxe_Room">Deluxe Room</option>
+            <option value="Super_Deluxe_Room">Super Deluxe Room</option>
+            <option value="Premium_Room">Premium Room</option>
+            <option value="Suite_Room">Suite Room</option>
+          </select>
         </div>
-        <div className="bd-booking-4__input mb-15">
+        {/* <div className="bd-booking-4__input mb-15">
           <input type="text" value={`Price  ${totalPrice}`} readOnly />
-        </div>
+        </div> */}
         <div className="bd-booking-4__input mb-15">
+          {/* <label htmlFor="text">Fast Name</label> */}
           <input
             type="text"
             placeholder="First Name"
@@ -100,6 +113,7 @@ const BookingForm = () => {
         </div>
 
         <div className="bd-booking-4__input mb-15">
+          {/* <label htmlFor="text">Last Name</label> */}
           <input
             type="text"
             placeholder="Last Name"
@@ -109,6 +123,7 @@ const BookingForm = () => {
           />
         </div>
         <div className="bd-booking-4__input mb-15">
+          {/* <label htmlFor="text">Email</label> */}
           <input
             type="text"
             placeholder="Email"
@@ -130,7 +145,6 @@ const BookingForm = () => {
         <div className="bd-booking-4__input mb-15">
           <label htmlFor="date">Check in</label>
           <input
-            // id="checkin"
             type="date"
             name="checkin"
             value={formData.checkin}
@@ -141,7 +155,6 @@ const BookingForm = () => {
         <div className="bd-booking-4__input mb-15">
           <label htmlFor="checkout">Check out</label>
           <input
-            // id="checkout"
             type="date"
             name="checkout"
             value={formData.checkout}
@@ -150,12 +163,14 @@ const BookingForm = () => {
         </div>
 
         <div className="bd-booking-4__input p-relative mb-15">
+          <label htmlFor="text">Select ADULTS</label>
           <select
             name="adults"
             id="adults"
             className="bd-nice-select"
             value={formData.adults}
             onChange={handleChange}
+            style={{ height: "80%", width: "100%" }}
           >
             <option value="" disabled>
               Select ADULTS
@@ -167,13 +182,19 @@ const BookingForm = () => {
         </div>
 
         <div className="bd-booking-4__input p-relative mb-15">
+          <label htmlFor="text">Extra bed</label>
           <select
             name="extraBed"
-            id="extrabad"
+            id="extraBed"
+            value={formData.extraBed}
             className="bd-nice-select"
-            onChange={(e) => setExtraBed(e.target.value)}
+            onChange={(e) => {
+              handleChange(e);
+              setExtraBed(e.target.value);
+            }}
+            style={{ height: "60%", width: "100%" }}
           >
-            <option value="" disabled selected>
+            <option value="" disabled>
               Extra bed
             </option>
             <option value="1">Yes</option>
