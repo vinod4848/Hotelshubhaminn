@@ -44,18 +44,9 @@ const BookingForm = () => {
 
     const templateParams = {
       to_name: "vinod kumar",
-      message: `
-            First Name: ${formData.firstName}
-            Last Name: ${formData.lastName}
-            Email: ${formData.email}
-            Phone: ${formData.phone}
-            Adults: ${formData.adults}
-            Extra Bed: ${formData.extraBed}
-            Checkin: ${formData.checkin}
-            Checkout: ${formData.checkout}
-            Special Requirements: ${formData.specialRequirements}
-          `,
+      formData: formData,
     };
+
     emailjs
       .send(
         "service_iy53qdq",
@@ -64,7 +55,7 @@ const BookingForm = () => {
         "CSM5ny-M2R7aX5vJV"
       )
       .then(
-        (response: any) => {
+        (response) => {
           console.log("Email sent successfully:", response);
           Swal.fire({
             title: "Thanks for Booking",
@@ -84,12 +75,11 @@ const BookingForm = () => {
             specialRequirements: "",
           });
         },
-        (error: any) => {
+        (error) => {
           console.error("Error sending email:", error);
         }
       );
   };
-
   return (
     <form onSubmit={handleSubmit}>
       <div className="bd-booking-4__form">
@@ -140,7 +130,7 @@ const BookingForm = () => {
         <div className="bd-booking-4__input mb-15">
           <label htmlFor="date">Check in</label>
           <input
-            id="checkin"
+            // id="checkin"
             type="date"
             name="checkin"
             value={formData.checkin}
@@ -151,7 +141,7 @@ const BookingForm = () => {
         <div className="bd-booking-4__input mb-15">
           <label htmlFor="checkout">Check out</label>
           <input
-            id="checkout"
+            // id="checkout"
             type="date"
             name="checkout"
             value={formData.checkout}
@@ -178,13 +168,13 @@ const BookingForm = () => {
 
         <div className="bd-booking-4__input p-relative mb-15">
           <select
-            name="extrabad"
+            name="extraBed"
             id="extrabad"
             className="bd-nice-select"
             onChange={(e) => setExtraBed(e.target.value)}
           >
             <option value="" disabled selected>
-              Extra bad
+              Extra bed
             </option>
             <option value="1">Yes</option>
             <option value="2">No</option>
