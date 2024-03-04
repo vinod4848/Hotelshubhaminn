@@ -44,16 +44,16 @@ const BookingForm = () => {
     e.preventDefault();
 
     const templateParams = {
-      to_name: "vinod kumar",
+      to_name: "Hotel Shubham Inn",
       formData: formData,
     };
 
     emailjs
       .send(
-        "service_iy53qdq",
-        "template_xoadkr5",
+        "service_um4gwlh",
+        "template_2kl773q",
         templateParams,
-        "CSM5ny-M2R7aX5vJV"
+        "B9yJhMthcFiPHyeuw"
       )
       .then(
         (response) => {

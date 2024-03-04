@@ -24,7 +24,7 @@ const ContactArea = () => {
     e.preventDefault();
 
     const templateParams = {
-      to_name: "vinod kumar",
+      to_name: "Hotel Shubham Inn",
       message: `
         Name: ${formData.name}
         Email: ${formData.email}
@@ -38,10 +38,10 @@ const ContactArea = () => {
 
     emailjs
       .send(
-        "service_iy53qdq",
-        "template_2dai8uv",
+        "service_um4gwlh",
+        "template_puyy4an",
         templateParams,
-        "CSM5ny-M2R7aX5vJV"
+        "B9yJhMthcFiPHyeuw"
       )
       .then(
         (response: any) => {
