@@ -79,7 +79,7 @@ const HearderThree = () => {
                       <Link href="/">
                         <Image
                           src={logoBlack}
-                          style={{ width: "100%", height: "auto" }}
+                          style={{ width: "70%", height: "70%" }}
                           alt="image not found"
                         />
                       </Link>

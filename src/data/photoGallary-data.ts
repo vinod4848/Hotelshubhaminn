@@ -4,12 +4,12 @@ import thumb4 from "../../public/assets/img/gallery/main-4.jpg";
 import thumb5 from "../../public/assets/img/gallery/main-5.jpg";
 import thumb6 from "../../public/assets/img/gallery/main-6.jpg";
 import thumb7 from "../../public/assets/img/gallery/main-11.jpg";
-// import thumb8 from "../../public/assets/img/gallery/main-1.jpg";
+import thumb8 from "../../public/assets/img/gallery/main-1.jpg";
 import thumb10 from "../../public/assets/img/gallery/main-12.jpg";
 import thumb11 from "../../public/assets/img/gallery/main-13.jpg";
 import thumb12 from "../../public/assets/img/gallery/main-14.jpg";
 import thumb13 from "../../public/assets/img/gallery/main-15.jpg";
-import thumb14 from "../../public/assets/img/gallery/main-10.jpg";
+import thumb20 from "../../public/assets/img/gallery/main-111.jpg";
 import thumb16 from "../../public/assets/img/gallery/main-16.jpg";
 import thumb17 from "../../public/assets/img/gallery/main-17.jpg";
 import thumb18 from "../../public/assets/img/gallery/main-18.jpg";
@@ -44,11 +44,11 @@ const photoGallaryData = [
     img: thumb7,
     dynamicClass: "col-lg-6",
   },
-  // {
-  //   id: 9,
-  //   img: thumb8,
-  //   dynamicClass: "col-lg-3",
-  // },
+  {
+    id: 9,
+    img: thumb8,
+    dynamicClass: "col-lg-3",
+  },
   {
     id: 10,
     img: thumb10,
@@ -64,21 +64,21 @@ const photoGallaryData = [
     img: thumb12,
     dynamicClass: "col-lg-3",
   },
-  {
-    id: 13,
-    img: thumb14,
-    dynamicClass: "col-lg-3",
-  },
+  // {
+  //   id: 13,
+  //   img: thumb14,
+  //   dynamicClass: "col-lg-3",
+  // },
   {
     id: 14,
     img: thumb13,
     dynamicClass: "col-lg-6",
   },
-  {
-    id: 15,
-    img: thumb14,
-    dynamicClass: "col-lg-3",
-  },
+  // {
+  //   id: 15,
+  //   img: thumb14,
+  //   dynamicClass: "col-lg-3",
+  // },
   {
     id: 16,
     img: thumb16,
@@ -94,14 +94,14 @@ const photoGallaryData = [
     img: thumb18,
     dynamicClass: "col-lg-3",
   },
-  {
-    id: 19,
-    img: thumb14,
-    dynamicClass: "col-lg-3",
-  },
+  // {
+  //   id: 19,
+  //   img: thumb14,
+  //   dynamicClass: "col-lg-3",
+  // },
   {
     id: 20,
-    img: thumb18,
+    img: thumb20,
     dynamicClass: "col-lg-3",
   },
 ];

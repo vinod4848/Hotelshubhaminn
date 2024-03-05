@@ -4,7 +4,7 @@ import thumb3 from "../../public/assets/img/gallery/main-4.jpg";
 import thumb4 from "../../public/assets/img/gallery/main-5.jpg";
 import thumb5 from "../../public/assets/img/gallery/main-6.jpg";
 // import thumb6 from "../../public/assets/img/gallery/main-9.jpg";
-import thumb7 from "../../public/assets/img/gallery/main-10.jpg";
+// import thumb7 from "../../public/assets/img/gallery/main-10.jpg";
 import thumb8 from "../../public/assets/img/gallery/main-15.jpg";
 import thumb9 from "../../public/assets/img/gallery/main-19.jpg";
 import thumb10 from "../../public/assets/img/gallery/1.jpg";
@@ -14,10 +14,10 @@ import thumb13 from "../../public/assets/img/gallery/4.jpg";
 import thumb14 from "../../public/assets/img/gallery/5.jpg";
 import thumb15 from "../../public/assets/img/gallery/6.jpg";
 interface gallayDatatype {
-  id:number
-  img:any
+  id: number;
+  img: any;
 }
-const gallaryData:gallayDatatype[] = [
+const gallaryData: gallayDatatype[] = [
   // {
   //   id: 1,
   //   img: thumb1,
@@ -42,10 +42,10 @@ const gallaryData:gallayDatatype[] = [
   //   id: 6,
   //   img: thumb6,
   // },
-  {
-    id: 7,
-    img: thumb7,
-  },
+  // {
+  //   id: 7,
+  //   img: thumb7,
+  // },
   {
     id: 8,
     img: thumb8,
@@ -54,7 +54,7 @@ const gallaryData:gallayDatatype[] = [
     id: 9,
     img: thumb9,
   },
-  // gallary data 
+  // gallary data
   {
     id: 10,
     img: thumb10,

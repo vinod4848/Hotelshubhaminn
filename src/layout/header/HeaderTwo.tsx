@@ -25,7 +25,7 @@ const HeaderTwo = () => {
                     <div className="bd-header__logo">
                       <Link href="/">
                         <Image
-                          style={{ width: "100%", height: "100%" }}
+                          style={{ width: "80%", height: "80%" }}
                           src={logo}
                           alt="image not found"
                         />

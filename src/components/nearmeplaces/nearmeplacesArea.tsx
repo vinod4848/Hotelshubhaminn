@@ -176,13 +176,13 @@ const NeaarmeArea = () => {
             <div className="col-md-3 mb-4">
               <div className="card">
                 <img
-                  src="https://lh5.googleusercontent.com/p/AF1QipODj32WnIhCwYz0hAR0d3mTrzG2c6b2J8AonBK9=w408-h544-k-no"
+                  src="https://lh5.googleusercontent.com/p/AF1QipPeu1mxxRLhzIkre6S_83uzDB5xh_aAOEw5oVtI=w426-h240-k-no"
                   className="card-img-top"
                   alt=""
                   style={{ width: "328px", height: "220px" }}
                 />
                 <div className="card-body text-center">
-                  <h5 className="card-title">DR BHATIA’S HOSPITAL,BHANDUP</h5>
+                  <h5 className="card-title">Bhagwati Banquets</h5>
                   <button className="btn btn-danger position-absolute top-0 end-0 m-2">
                     500.M
                   </button>
